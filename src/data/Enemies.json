@@ -1,0 +1,2905 @@
+{
+  "enemies": [
+    {
+      "id": 0,
+      "name": "Болотный плевальщик",
+      "model_name": "Swamp Spitter.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Его раздутый, покрытый бородавчатыми наростами зоб светится сквозь болотную кожу тусклым зелёным огнём. Когда плевальщик шевелится в камышах, кажется, будто сама трясина пытается заговорить через гниющее горло.",
+        "Когда-то это была обычная жаба, пережившая слишком много сезонов спорного цветения. Топи не убили её - они дали ей новую работу: хранить самые ядовитые заводи от тех, кто ищет короткую дорогу."
+      ],
+      "base_attributes": {
+        "hp": 30,
+        "shield": 150,
+        "physical_defense": 10,
+        "magic_resistance": 0,
+        "dodge": 0,
+        "damage": 4,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 160,
+        "attack_lifesteal": 0,
+        "effect_resistance": 15,
+        "slow_effectiveness": 25,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Ядовитый плевок",
+          "info": "Выпускает ядовитые снаряды, оставляющие лужи",
+          "skill_image": "Venomous_spit.png",
+          "range": 80,
+          "damage": 5,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Ядовитая муха",
+      "model_name": "Poison Fly.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Её прозрачные крылья переливаются маслянистыми пятнами, а тонкое брюшко наполнено янтарным ядом. В тумане муху выдают не глаза, а нервный, почти человеческий звон крыльев.",
+        "Старые травники говорили, что эти насекомые рождаются в глазницах утонувших путников. Поэтому болотные огни нередко летят за ними следом, словно пытаются вернуть потерянный взгляд."
+      ],
+      "base_attributes": {
+        "hp": 20,
+        "shield": 80,
+        "physical_defense": 0,
+        "magic_resistance": 10,
+        "dodge": 0,
+        "damage": 5,
+        "attack_spead": 1,
+        "critical_damage": 25,
+        "critical_chance": 1,
+        "speed": 190,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 50,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Жалящие виражи",
+          "info": "Быстро летает вокруг героя, атакуя двумя выпадами",
+          "skill_image": "Stinging_turns.png",
+          "range": 0,
+          "damage": 4,
+          "duration": 0
+        },
+        {
+          "name": "Ядовитое облако",
+          "info": "Оставляет облако яда после гибели",
+          "skill_image": "Venomous_cloud.png",
+          "range": 90,
+          "damage": 4,
+          "duration": 2.5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Споровое растение",
+      "model_name": "Spore Plant.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Из чёрной воды поднимается неподвижный стебель с мясистой чашей, усеянной бледными грибными пластинами. По его лепесткам бегут влажные прожилки, похожие на медленно открывающиеся веки.",
+        "Растение пустило корни в месте, где некогда разбился караван с лекарствами. Оно помнит запах каждой настойки, но научилось смешивать их только с тленом и голодом."
+      ],
+      "base_attributes": {
+        "hp": 110,
+        "shield": 0,
+        "physical_defense": 10,
+        "magic_resistance": 10,
+        "dodge": 0,
+        "damage": 2,
+        "attack_spead": 0.5,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 120,
+        "attack_lifesteal": 0,
+        "effect_resistance": 50,
+        "slow_effectiveness": 90,
+        "stun_resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Пульс спор",
+          "info": "Каждые 1.2 секунды выпускает волны спор в радиусе вокруг себя",
+          "skill_image": "Pulse_spores.png",
+          "range": 75,
+          "damage": 3,
+          "duration": 0.3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Мухоловка",
+      "model_name": "Flytrap.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Снаружи она похожа на цветок, слишком красивый для этой гнили: багровые лепестки лежат на мху, пока не раскроется тёмная пасть. Под почвой тянутся толстые корни, чувствующие шаг лучше любого слуха.",
+        "Её вывели в заброшенном саду алхимика как живую ловушку для болотных зверей. Сад исчез, но цветы продолжили ждать садовника - и хватают каждого, кто проходит достаточно близко."
+      ],
+      "base_attributes": {
+        "hp": 5,
+        "shield": 100,
+        "physical_defense": 5,
+        "magic_resistance": 5,
+        "dodge": 0,
+        "damage": 3,
+        "attack_spead": 1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 50,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 100,
+        "stun_resistance": 100
+      },
+      "skills": [
+        {
+          "name": "Засада хищного цветка",
+          "info": "Прячется в земле и пытается схватить героя при приближении. Если мухоловка схватит героя - он будет в оцепенении",
+          "skill_image": "Ambush_predatory_flower.png",
+          "range": 0,
+          "damage": 3,
+          "duration": 0.8
+        },
+        {
+          "name": "Подземная оболочка",
+          "info": "Пока находится под землей получает на 50% меньше урона",
+          "skill_image": "Underground_shell.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Токсичный паук",
+      "model_name": "Toxic Spider.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Его панцирь будто вылеплен из мокрого обсидиана и покрыт тонкими зелёными трещинами. На концах лап висят нити паутины, тяжёлые от кислой росы и прилипших спор.",
+        "Паук плетёт сети не между ветвями, а над ядовитыми омутами: в них тонут не тела, а отражения. Говорят, если долго смотреть в такую воду, он спускается проверить, кому принадлежит лицо."
+      ],
+      "base_attributes": {
+        "hp": 150,
+        "shield": 0,
+        "physical_defense": -15,
+        "magic_resistance": 15,
+        "dodge": 0,
+        "damage": 3,
+        "attack_spead": 0.75,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 190,
+        "attack_lifesteal": 10,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Токсичный укус",
+          "info": "Атаки наносят дополнительный переодический урон",
+          "skill_image": "Venomous_bite.png",
+          "range": 0,
+          "damage": 0.4,
+          "duration": 5
+        },
+        {
+          "name": "Липкая сеть",
+          "info": "Выпускает паутину в указанную точку. Паутина замедляет героев на 40%",
+          "skill_image": "Sticky_web.png",
+          "range": 130,
+          "damage": 0,
+          "duration": 6
+        },
+        {
+          "name": "Тройной плевок",
+          "info": "Выпускает 3 ядовитых снаряда в сторону героя. Снаряды также отравляют при попадании",
+          "skill_image": "Triple_spit.png",
+          "range": 0,
+          "damage": 2,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Токсичный слизень",
+      "model_name": "Toxic Slug.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Тело слизня светится изнутри мутным лимонным светом, а на его спине вздуваются полупрозрачные пузыри. Он не оставляет следов на грязи - только блестящую дорожку, от которой вянут травы.",
+        "Топи вырастили его из остатков алхимических стоков, выброшенных в дальнюю заводь. Теперь слизень несёт эту ошибку через болото с медлительностью существа, которому некуда спешить."
+      ],
+      "base_attributes": {
+        "hp": 200,
+        "shield": 0,
+        "physical_defense": 0,
+        "magic_resistance": -20,
+        "dodge": 0,
+        "damage": 3,
+        "attack_spead": 0.5,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 140,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": -50,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Ядовитый след",
+          "info": "Оставляет за собой след слизи, накапливающий отравление",
+          "skill_image": "Venomous_trace.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Болотный охотник",
+      "model_name": "Swamp Hunter.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Охотник носит плащ из болотного мха и коры, под которым едва угадывается худое человеческое тело. Его лицо закрыто маской из черепной кости цапли, а глаза вспыхивают между прорезями холодным жёлтым светом.",
+        "Он был проводником и знал каждую кочку по имени. Однажды вывел людей к сокровищам вместо безопасной тропы - и с тех пор сам болота ведут его туда, где слышны чужие шаги."
+      ],
+      "base_attributes": {
+        "hp": 10,
+        "shield": 75,
+        "physical_defense": 10,
+        "magic_resistance": 10,
+        "dodge": 5,
+        "damage": 5,
+        "attack_spead": 1.15,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 205,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 10,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Токсичный укус",
+          "info": "Атаки наносят дополнительный переодический урон",
+          "skill_image": "Venomous_hunter_bite.png",
+          "range": 0,
+          "damage": 0.3,
+          "duration": 5
+        },
+        {
+          "name": "Теневая маскировка",
+          "info": "Прячется в невидимость. Невидимость спадает перед проведением атаки или при получении урона",
+          "skill_image": "Shadow_camouflage.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Грибной носитель",
+      "model_name": "Spore Carrier.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "На его сутулой спине растёт целый сад шляпок - белых, синюшных и красных, словно пятна старой краски. Под тяжестью грибницы фигура кажется не человеком, а медленно идущим пнём.",
+        "Носитель не помнит, кем был до заражения. Зато грибница помнит всё: голоса погибших, вкус дождя и путь к каждому месту, где земля ещё готова принять новое семя."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 0,
+        "physical_defense": 20,
+        "magic_resistance": -50,
+        "dodge": 0,
+        "damage": 2,
+        "attack_spead": 0.8,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 130,
+        "attack_lifesteal": 20,
+        "effect_resistance": 25,
+        "slow_effectiveness": 50,
+        "stun_resistance": 25
+      },
+      "skills": [
+        {
+          "name": "Ответный споропад",
+          "info": "Разбрасывает споры при потере 30% здоровья (до 3-х раз)",
+          "skill_image": "Retaliatory_sporefall.png",
+          "range": 100,
+          "damage": 5,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Трясинный страж",
+      "model_name": "Mire Guardian.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Из воды выступает исполинская фигура, сложенная из торфа, коряг и ржавых доспехов. В щелях его тяжёлого корпуса мерцают крошечные болотные огни, будто внутри стража поселилась ночная топь.",
+        "Его собрали вокруг старого мостка, чтобы он не дал людям осушить трясину. Мост давно сгнил, приказ давно забыт, но страж по-прежнему встаёт между чужаком и чёрной водой."
+      ],
+      "base_attributes": {
+        "hp": 50,
+        "shield": 200,
+        "physical_defense": 40,
+        "magic_resistance": -25,
+        "dodge": 0,
+        "damage": 5,
+        "attack_spead": 0.7,
+        "critical_damage": 50,
+        "critical_chance": 5,
+        "speed": 200,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 100,
+        "stun_resistance": 25
+      },
+      "skills": []
+    },
+    {
+      "id": 9,
+      "name": "Пиявка-кровосос",
+      "model_name": "Bloodsucking Leech.png",
+      "enemy_location_id": 0,
+      "game_description": [
+        "Её бледное кольчатое тело почти не видно в торфяной жиже, пока над водой не покажется круглая пасть с тонкими белыми зубцами. Пиявка движется с неприятной грацией - словно вода сама тянется за добычей.",
+        "Она питается кровью не ради голода, а ради памяти: с каждой каплей в ней остаётся короткий отзвук чужой жизни. Потому старые охотники избегали смотреть на неё после укуса - в её коже могли увидеть собственное прошлое."
+      ],
+      "base_attributes": {
+        "hp": 40,
+        "shield": 0,
+        "physical_defense": 0,
+        "magic_resistance": 0,
+        "dodge": 0,
+        "damage": 1.5,
+        "attack_spead": 1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 230,
+        "attack_lifesteal": 10,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Кровососущая хватка",
+          "info": "Цепляется к герою, наносит периодический урон и лечится; Сбить пиявку можно применением рывка или ударом в её сторону. Пиявка отцепляется автоматически через несколько секунд",
+          "skill_image": "Bloodsucking_grip.png",
+          "range": 0,
+          "damage": 1.5,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Череп",
+      "model_name": "Exploding Skull.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Этот череп оброс тёмными жилами и трещинами, в которых тлеет багровый свет. Он висит в воздухе так легко, будто забыл, что когда-то принадлежал телу.",
+        "В катакомбах его считают последним словом приговора: такие головы оставляли у камер тех, кого нельзя было отпустить даже после смерти. Со временем слово забылось, а желание исполнить его осталось."
+      ],
+      "base_attributes": {
+        "hp": 70,
+        "shield": 0,
+        "physical_defense": 0,
+        "magic_resistance": 0,
+        "dodge": 0,
+        "damage": 6,
+        "attack_spead": 1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 200,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 40,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Костяной бросок",
+          "info": "Совершает резкий рывок в выбранном направлении",
+          "skill_image": "Bone_throw.png",
+          "range": 140,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Погребальный взрыв",
+          "info": "Взрывается при сближении с героем или его союзником",
+          "skill_image": "Funerary_explosion.png",
+          "range": 50,
+          "damage": 6,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Скелет-мечник",
+      "model_name": "Skeleton Swordsman.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Ржавый меч прирос к его костяной ладони, а остатки мундира рассыпаются пылью при каждом шаге. Между рёбрами дрожит крохотный огонёк, упрямо освещающий пустую грудную клетку.",
+        "Он пал у входа в семейную гробницу и не успел снять доспехи. Теперь старый приказ звучит в его костях яснее собственного имени: не пропускать никого, даже если ворота давно никому не принадлежат."
+      ],
+      "base_attributes": {
+        "hp": 150,
+        "shield": 0,
+        "physical_defense": 10,
+        "magic_resistance": 0,
+        "dodge": 0,
+        "damage": 4,
+        "attack_spead": 0.7,
+        "critical_damage": 75,
+        "critical_chance": 15,
+        "speed": 170,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Тройной костяной удар",
+          "info": "Атакует серией из трёх ближних ударов, нанося бонусный урон",
+          "skill_image": "Triple_bone_barrier.png",
+          "range": 0,
+          "damage": 0.3,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Скелет-лучник",
+      "model_name": "Skeleton Archer.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "На его луке натянута струна из высохшего сухожилия, а колчан полон стрел с наконечниками из надгробных гвоздей. Пустые глазницы следят за коридором с неподвижным терпением старой статуи.",
+        "Лучником был могильный дозорный, который записывал имена умерших. После того как надписи на стенах потемнели, он решил, что всякий живой - ещё неучтённая ошибка."
+      ],
+      "base_attributes": {
+        "hp": 120,
+        "shield": 0,
+        "physical_defense": 10,
+        "magic_resistance": 0,
+        "dodge": 0,
+        "damage": 4,
+        "attack_spead": 0.75,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 170,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": []
+    },
+    {
+      "id": 13,
+      "name": "Лич-некромант",
+      "model_name": "Lich Necromancer.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Его высохшее лицо спрятано под короной из позвонков, а мантия тянется по полу, оставляя влажный кровавый след. На кончиках пальцев мерцают огоньки, похожие на свет погребальных фонарей.",
+        "Некромант служил хранителем реестров и боялся только одного - пропустить чью-то смерть. Когда списки закончились, он начал вписывать новые имена сам, чтобы его работа никогда не оборвалась."
+      ],
+      "base_attributes": {
+        "hp": 5,
+        "shield": 110,
+        "physical_defense": 0,
+        "magic_resistance": 40,
+        "dodge": 0,
+        "damage": 3,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 170,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Некромантский призыв",
+          "info": "Вызывает скелета-мечника, скелета-лучника или два черепа. Может призвать союзников до двух раз и не чаще раза в 15 секунд",
+          "skill_image": "Necromantic_summoning.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Куча костей",
+      "model_name": "Bone Pile.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Это не просто груда костей: отдельные рёбра и фаланги медленно шевелятся, как белые насекомые в пыли. В центре кучи лежит тёмный позвонок, от которого по останкам расходится слабое синее свечение.",
+        "Такие кучи остаются после неудачных погребальных ритуалов, когда мёртвых пересчитывали слишком поспешно. Катакомбы помнят, что тел было больше, чем имён, и стараются собрать недостающее."
+      ],
+      "base_attributes": {
+        "hp": 120,
+        "shield": 0,
+        "physical_defense": 0,
+        "magic_resistance": -50,
+        "dodge": 0,
+        "damage": 0,
+        "attack_spead": 0,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 0,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 100,
+        "stun_resistance": 100
+      },
+      "skills": [
+        {
+          "name": "Кости не знают покоя",
+          "info": "Призывает скелета или череп каждые 3 секунды, если не получает урон",
+          "skill_image": "Bones_no_know_rest.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Призрак",
+      "model_name": "Ghost.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Его полупрозрачная фигура вытянута и размыта, словно её нарисовали на мокром камне. Внутри груди горит одинокий голубой огонёк - последнее, что осталось от лица.",
+        "Призрак пришёл к фонарю, который должен был показать путь наружу, но свет удержал его в подземелье. Теперь он бродит сквозь стены, ищет дверь и не понимает, что двери уже нет."
+      ],
+      "base_attributes": {
+        "hp": 5,
+        "shield": 100,
+        "physical_defense": 0,
+        "magic_resistance": 0,
+        "dodge": 20,
+        "damage": 3,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 180,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 25,
+        "stun_resistance": 25
+      },
+      "skills": [
+        {
+          "name": "Бестелесный проход",
+          "info": "Проходит сквозь препятствия",
+          "skill_image": "Incorporeal_passage.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Сквозная завеса",
+          "info": "Периодически становится неосязаемым, увеличивая физическое сопротивление на 50%, но снижая магическое сопротивление на 100%",
+          "skill_image": "Ethereal_veil.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Потусторонний фонарь",
+      "model_name": "Otherworldly Lantern.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Фонарь плывёт без руки и цепи, освещая коридор пламенем цвета зимней луны. В его стекле иногда проступают лица, которые исчезают, едва на них посмотрят.",
+        "Его зажгли для тех, кто боялся заблудиться после смерти. Огонь оказался слишком ревностным проводником: он не ведёт души к выходу, а бережно держит их рядом с собой."
+      ],
+      "base_attributes": {
+        "hp": 5,
+        "shield": 120,
+        "physical_defense": 0,
+        "magic_resistance": -50,
+        "dodge": 0,
+        "damage": 0,
+        "attack_spead": 0,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 0,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 100,
+        "stun_resistance": 100
+      },
+      "skills": [
+        {
+          "name": "Свет заблудших душ",
+          "info": "Призывает призрака каждые 3 секунды, если не получает урон",
+          "skill_image": "Light_lost_souls.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Покров фонаря",
+          "info": "Защищает призраков от урона вокруг себя, снижая входящий по ним урон на 25%",
+          "skill_image": "Veil_lantern.png",
+          "range": 100,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Костяной змей",
+      "model_name": "Bone Serpent.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Длинный хребет змея собран из пожелтевших позвонков, соединённых тонкими красными нитями. Череп без нижней челюсти скалится из земли, а между костями шуршит сухая могильная пыль.",
+        "Он возник там, где хоронили воинов вместе с их боевыми зверями. Века смешали останки, и катакомбы собрали из них существо, которому одинаково привычны норы, могилы и охота."
+      ],
+      "base_attributes": {
+        "hp": 170,
+        "shield": 0,
+        "physical_defense": 20,
+        "magic_resistance": 0,
+        "dodge": 0,
+        "damage": 5,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 180,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Подкоп",
+          "info": "Уходит под землю и создаёт шипы по пути движения. Попадание под атаку оглушает героя",
+          "skill_image": "Underground_bone_trace.png",
+          "range": 0.7,
+          "damage": 5,
+          "duration": 0
+        },
+        {
+          "name": "Костяной залп",
+          "info": "Метает шипы в выбранного героя",
+          "skill_image": "Bone_volley.png",
+          "range": 0,
+          "damage": 3,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Кровавый палач",
+      "model_name": "Blood Executioner.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Его огромный топор почернел от запёкшейся крови, а на кожаном фартуке видны следы имён, стёртых временем. Палач движется тяжело, будто каждый шаг делает по каменной плахе.",
+        "Он был последним человеком, которому позволяли видеть лица осуждённых. После смерти он сохранил лишь жест казни - и потому пытается завершить его для каждого, кто входит в его зал."
+      ],
+      "base_attributes": {
+        "hp": 220,
+        "shield": 0,
+        "physical_defense": 30,
+        "magic_resistance": 0,
+        "dodge": 0,
+        "damage": 7,
+        "attack_spead": 0.65,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 140,
+        "attack_lifesteal": 0,
+        "effect_resistance": 50,
+        "slow_effectiveness": 80,
+        "stun_resistance": 80
+      },
+      "skills": [
+        {
+          "name": "Сокрушающий приговор",
+          "info": "Наносит тяжёлый удар по области перед собой, ненадолго оглушающий героев",
+          "skill_image": "Crushing_judgment.png",
+          "range": 0,
+          "damage": 8,
+          "duration": 0.2
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Плакальщица",
+      "model_name": "The Mourner.png",
+      "enemy_location_id": 1,
+      "game_description": [
+        "Её платье струится туманом, а под вуалью нет лица - только глубокая тень и влажный отблеск слезы. Воздух вокруг неё дрожит от беззвучного плача, который слышится скорее в костях, чем ушами.",
+        "Она оплакивала тех, чьи имена забыли высечь на стенах. Слёзы впитались в камень, и катакомбы оставили её здесь, чтобы никто больше не смог уйти без прощания."
+      ],
+      "base_attributes": {
+        "hp": 5,
+        "shield": 120,
+        "physical_defense": 0,
+        "magic_resistance": 0,
+        "dodge": 20,
+        "damage": 3,
+        "attack_spead": 0.95,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 185,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 25,
+        "stun_resistance": 25
+      },
+      "skills": [
+        {
+          "name": "Слёзы ушедших",
+          "info": "Выпускает веер призрачных снарядов в выбранном направлении",
+          "skill_image": "Wailing_fan.png",
+          "range": 0,
+          "damage": 4,
+          "duration": 0
+        },
+        {
+          "name": "Плач по павшим",
+          "info": "Усиливает ближайших призраков, повышая их скорость и урон на 20%.",
+          "skill_image": "Mourning_for_fallen.png",
+          "range": 320,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Лавовый жук",
+      "model_name": "Lava Beetle.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Его чёрный панцирь раскален по краям, а из-под надкрылий вырываются короткие языки пламени. Когда жук замирает на камне, кажется, что это всего лишь кусок шлака - до первого движения усиков.",
+        "Он родился в трещине у самого огненного сердца горы и привык к жару, который превратил бы металл в жидкость. Для него Кальдера не опасна, а похожа на тёплую нору."
+      ],
+      "base_attributes": {
+        "hp": 120,
+        "shield": 0,
+        "physical_defense": 10,
+        "magic_resistance": 40,
+        "dodge": 0,
+        "damage": 5,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 185,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Огненный накат",
+          "info": "Бросается в сторону героя и оставляет небольшую огненную лужу в месте приземления",
+          "skill_image": "Fire_rush.png",
+          "range": 75,
+          "damage": 4,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Огненный голем",
+      "model_name": "Fire Golem.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Голем сложен из треснувших базальтовых плит, между которыми перекатывается живая лава. Его широкие плечи дымятся, а вместо головы горит грубая каменная маска без рта.",
+        "Говорят, первые кузнецы вырезали его из склона, чтобы он охранял рудные жилы. Когда мастера исчезли, гора оставила ему единственный язык - рокот камня, падающего на чужой путь."
+      ],
+      "base_attributes": {
+        "hp": 350,
+        "shield": 0,
+        "physical_defense": 25,
+        "magic_resistance": 25,
+        "dodge": 0,
+        "damage": 6,
+        "attack_spead": 0.6,
+        "critical_damage": 75,
+        "critical_chance": 15,
+        "speed": 150,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 90,
+        "stun_resistance": 90
+      },
+      "skills": [
+        {
+          "name": "Сокрушающий приговор",
+          "info": "Наносит тяжёлый удар по области перед собой, ненадолго оглушающий героев",
+          "skill_image": "Fire_crushing_judgment.png",
+          "range": 0,
+          "damage": 8,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Магмовый слайм",
+      "model_name": "Magma Slime.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "В вязком теле слайма плавают красные прожилки и кусочки чёрного стекла, словно он проглотил остывшее извержение. Каждый его шаг оставляет за собой дрожащее алое отражение.",
+        "Когда Кальдера впервые переполнилась, часть лавы не остыла, а научилась искать тепло. Слайм до сих пор тянется к следам живого дыхания, принимая их за обещание нового огня."
+      ],
+      "base_attributes": {
+        "hp": 40,
+        "shield": 90,
+        "physical_defense": 10,
+        "magic_resistance": 40,
+        "dodge": 0,
+        "damage": 5,
+        "attack_spead": 1.1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 190,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Магмовый прыжок",
+          "info": "Дважды прыгает по арене и оставляет след расплавленной магмы",
+          "skill_image": "Double_magma_leap.png",
+          "range": 60,
+          "damage": 5,
+          "duration": 2.2
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Пепельная виверна",
+      "model_name": "Ash Wyvern.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Её крылья покрыты серым пеплом, но под ним светятся жилы раскалённой магмы. Виверна летит низко над склонами, и её тень кажется больше самой птицы из-за дрожащего от жары воздуха.",
+        "Она вылупилась в гнезде, свитом из обгоревших знамён на краю кратера. С тех пор дым для неё - не завеса, а родное небо, в котором можно спрятать даже огромные крылья."
+      ],
+      "base_attributes": {
+        "hp": 50,
+        "shield": 200,
+        "physical_defense": 10,
+        "magic_resistance": 15,
+        "dodge": 0,
+        "damage": 5,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 220,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 30,
+        "stun_resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Залп пепла",
+          "info": "Очередью выпускает четыре огненных снаряда в сторону героя",
+          "skill_image": "Ash_volley.png",
+          "range": 30,
+          "damage": 6,
+          "duration": 0
+        },
+        {
+          "name": "Два пепельных крыла",
+          "info": "Совершает два коротких воздушных рывка",
+          "skill_image": "Two_wings_ash.png",
+          "range": 80,
+          "damage": 1.5,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Зачарованный молот",
+      "model_name": "Enchanted Hammer.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Молот висит в воздухе, окружённый обрывками тусклой рунической ленты. Его головка испещрена клеймами, а длинная рукоять двигается так, будто её всё ещё держит невидимая ладонь.",
+        "Когда-то им запечатывали опасные шахты после обвалов. Последний удар оказался настолько сильным, что инструмент сохранил память о руке мастера и теперь ищет землю, которую должен укротить."
+      ],
+      "base_attributes": {
+        "hp": 10,
+        "shield": 150,
+        "physical_defense": 25,
+        "magic_resistance": 15,
+        "dodge": 0,
+        "damage": 7,
+        "attack_spead": 1.1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 210,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Падение зачарованного молота",
+          "info": "Взлетает над указанной областью, после чего с задержкой обрушивается на неё нанося урон",
+          "skill_image": "Fall_enchanted_hammer.png",
+          "range": 90,
+          "damage": 7,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Огненный культист",
+      "model_name": "Fire Cultist.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Его обгоревшие одежды украшены медными амулетами, расплавившимися прямо на коже. Сквозь прорези маски виден не взгляд, а ровное оранжевое свечение.",
+        "Культист пришёл к кратеру просить у горы бессмертия и получил его по-своему: огонь выжег страх вместе с лицом. Теперь он считает каждого путника недостойным прикоснуться к сердцу Кальдеры."
+      ],
+      "base_attributes": {
+        "hp": 50,
+        "shield": 250,
+        "physical_defense": -10,
+        "magic_resistance": 40,
+        "dodge": 0,
+        "damage": 5,
+        "attack_spead": 1.1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 210,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Огненный шар",
+          "info": "Заряжает огненный шар, который при касании с землёй взрывается нанося урон по площади",
+          "skill_image": "Consecrated_fire_orb.png",
+          "range": 110,
+          "damage": 8,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Обсидиановый страж",
+      "model_name": "Obsidian Guardian.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Его броня состоит из матовых чёрных пластин, на которых бегут тонкие огненные жилы. Страж похож на застывшую статую у вулканического храма, пока его тяжёлая голова не повернётся.",
+        "Его ковали не люди, а давление и глубина: в нём спрессованы века остывающей лавы. Страж не знает приказов, кроме одного - не позволять никому коснуться того, что гора бережёт под собой."
+      ],
+      "base_attributes": {
+        "hp": 400,
+        "shield": 0,
+        "physical_defense": 40,
+        "magic_resistance": 40,
+        "dodge": 0,
+        "damage": 14,
+        "attack_spead": 0.65,
+        "critical_damage": 40,
+        "critical_chance": 20,
+        "speed": 150,
+        "attack_lifesteal": 0,
+        "effect_resistance": 100,
+        "slow_effectiveness": 100,
+        "stun_resistance": 100
+      },
+      "skills": [
+        {
+          "name": "Обсидионовая броня",
+          "info": "Спереди получает на 70% меньше урона",
+          "skill_image": "Obsidian_armor.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Обсидиановый ответ",
+          "info": "При получении 15% урона в короткий срок - прыгает, ударясь по земле, что оглушает геров и снимает самому стражу 5% от максимального запаса здоровья",
+          "skill_image": "Obsidian_reprisal.png",
+          "range": 120,
+          "damage": 8,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Магмовая саламандра",
+      "model_name": "Magma Salamander.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Её длинное тело сияет медными и красными чешуйками, а по спине тянется гребень, похожий на ряд крошечных вулканов. Саламандра выглядит хрупкой лишь издалека: возле неё камень начинает плавиться.",
+        "В старых шахтах её называли добрым знаком, пока не заметили, что она приходит туда, где вскоре прорвётся лава. Саламандра ничего не предсказывает - она просто всегда следует за своим домом."
+      ],
+      "base_attributes": {
+        "hp": 170,
+        "shield": 0,
+        "physical_defense": 0,
+        "magic_resistance": 40,
+        "dodge": 0,
+        "damage": 6,
+        "attack_spead": 1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 190,
+        "attack_lifesteal": 0,
+        "effect_resistance": 25,
+        "slow_effectiveness": 40,
+        "stun_resistance": 40
+      },
+      "skills": [
+        {
+          "name": "Скольжение по лаве",
+          "info": "Скорость передвижения на любых лавовых поверхностях увеличена на 70",
+          "skill_image": "Glide_for_lava.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Магмовое восстановление",
+          "info": "Находясь в лаве восстанавливает 12% здоровья в секунду",
+          "skill_image": "Magma_regeneration.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Пепельный летун",
+      "model_name": "Ash Flyer.png",
+      "enemy_location_id": 2,
+      "game_description": [
+        "Его тощий силуэт почти неразличим в пепельном облаке, только края крыльев горят ровной красной линией. Он летит рывками, словно ветер швыряет по небу обугленный лист.",
+        "Летун не умеет петь и не строит гнёзд; его выводит на свет каждый новый пожар на склоне. Пепел, осевший на его перьях, несёт запах всех деревень, которые когда-то стояли у Кальдеры."
+      ],
+      "base_attributes": {
+        "hp": 10,
+        "shield": 250,
+        "physical_defense": 0,
+        "magic_resistance": 0,
+        "dodge": 12,
+        "damage": 6,
+        "attack_spead": 1.1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 210,
+        "attack_lifesteal": 0,
+        "effect_resistance": 0,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Дождь горящих осколков",
+          "info": "Сбрасывает горящие осколки на отмеченные участки пола",
+          "skill_image": "Rain_burning_shards.png",
+          "range": 70,
+          "damage": 8,
+          "duration": 2.5
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Демон-кузнец",
+      "model_name": "Demon Smith.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Демон-кузнец широкоплеч и чёрен от сажи, а его рога увиты раскалёнными цепями. Под тяжёлым фартуком вспыхивают угли, будто в его груди работает маленькая печь.",
+        "Он ковал сосуды для приказов, которые должны были пережить своих создателей. Когда Кузница осталась без хозяев, демон продолжил работу - теперь он пытается выковать из любого вторгшегося тела очередную деталь."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 100,
+        "physical_defense": 25,
+        "magic_resistance": 20,
+        "dodge": 0,
+        "damage": 8,
+        "attack_spead": 0.8,
+        "critical_damage": 50,
+        "critical_chance": 5,
+        "speed": 160,
+        "attack_lifesteal": 0,
+        "effect_resistance": 25,
+        "slow_effectiveness": 0,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Кузнечный раскат",
+          "info": "Атакует тяжёлым молотом и оставляет небольшую магмовую лужу",
+          "skill_image": "Forge_crash.png",
+          "range": 90,
+          "damage": 10,
+          "duration": 2
+        },
+        {
+          "name": "Возвращение лавового молота",
+          "info": "В дальнем бою метает молот и спустя секунду притягивает его к себе, вырывая лаву из земли по траектории возврата молота",
+          "skill_image": "Return_lava_hammer.png",
+          "range": 0,
+          "damage": 6,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Литой страж",
+      "model_name": "Cast-Iron Guardian.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Его литое тело гладкое и тяжёлое, без единой щели, кроме узких прорезей для красного света. На груди выбито заводское клеймо, стёртое так многими слоями копоти, что его уже нельзя прочесть.",
+        "Страж стоял у ворот цеха в тот день, когда последний мастер запер двери изнутри. Он так и не получил отмены приказа и считает, что смена ещё не закончилась."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 160,
+        "physical_defense": 30,
+        "magic_resistance": 15,
+        "dodge": 0,
+        "damage": 6,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 130,
+        "attack_lifesteal": 0,
+        "effect_resistance": 25,
+        "slow_effectiveness": 0,
+        "stun_resistance": 35
+      },
+      "skills": [
+        {
+          "name": "Литое забрало",
+          "info": "Неуязвим к атакам спереди",
+          "skill_image": "Cast_visor.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Перегрев",
+          "info": "Получает в 5 раз больше урона от перегретых платформ и пара",
+          "skill_image": "Overheat.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Автоматон",
+      "model_name": "Automaton.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Автоматон собран из потемневшей бронзы, шестерён и натянутых пружин; при движении из него сыплются искры. В его стеклянном окуляре отражается печь, даже когда поблизости нет огня.",
+        "Его создали, чтобы он повторял одно движение мастера тысячу раз без усталости. Со временем машина выучила жест, но потеряла смысл, и теперь пытается исправить мир так же методично, как когда-то правила бракованный металл."
+      ],
+      "base_attributes": {
+        "hp": 250,
+        "shield": 100,
+        "physical_defense": 20,
+        "magic_resistance": 15,
+        "dodge": 0,
+        "damage": 6,
+        "attack_spead": 1.2,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 180,
+        "attack_lifesteal": 0,
+        "effect_resistance": 15,
+        "slow_effectiveness": 0,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Заводная серия",
+          "info": "Выполняет серию предсказуемых ударов и кратко останавливается для перезарядки",
+          "skill_image": "Clockwork_series.png",
+          "range": 0,
+          "damage": 2,
+          "duration": 1.5
+        },
+        {
+          "name": "Аварийный ремонт",
+          "info": "Может самостоятельно ремонтироваться, восстанавливая здоровье (8% в секунду). Во время ремонта автоматон особенно уязвим для атак, получая на 150% больше урона",
+          "skill_image": "Emergency_repair.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Кузнечный бес",
+      "model_name": "Forge Imp.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Этот маленький демон всегда выглядит так, будто только что выбрался из дымохода: грязные крылья, острые зубы и ладони в масле. Его глаза блестят весело и зло, как два уголька в пепле.",
+        "Бес был учеником при рычажной комнате и запоминал, какой звук издаёт каждая ловушка. Он пережил мастеров потому, что никогда не принимал работу всерьёз - для него Кузница всегда была огромной игрушкой."
+      ],
+      "base_attributes": {
+        "hp": 210,
+        "shield": 35,
+        "physical_defense": 5,
+        "magic_resistance": 5,
+        "dodge": 20,
+        "damage": 5,
+        "attack_spead": 1.2,
+        "critical_damage": 50,
+        "critical_chance": 10,
+        "speed": 260,
+        "attack_lifesteal": 0,
+        "effect_resistance": 5,
+        "slow_effectiveness": 0,
+        "stun_resistance": 0
+      },
+      "skills": [
+        {
+          "name": "Рычаг кузницы",
+          "info": "Может активировать рычаги ловушек на арене. В момент активации ловушки долго стоит на ней до и после активации",
+          "skill_image": "Lever_forge.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Магмовая бомба",
+      "model_name": "Magma bomb.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Круглый железный корпус облеплен застывшими потёками магмы, а в центре мигает багровая трещина. Бомба покачивается на коротких ножках, будто нетерпеливо прислушивается к шагам.",
+        "Её собирали как аварийный снаряд для плавильных печей, но забыли указать, что делать после тревоги. Поэтому она честно ищет самый громкий способ закончить смену."
+      ],
+      "base_attributes": {
+        "hp": 160,
+        "shield": 70,
+        "physical_defense": 15,
+        "magic_resistance": 15,
+        "dodge": 0,
+        "damage": 8,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 215,
+        "attack_lifesteal": 0,
+        "effect_resistance": 15,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Отложенная детонация",
+          "info": "Взрывается после приближения к герою или спустя 10 секунд после появления",
+          "skill_image": "Delayed_detonation.png",
+          "range": 0,
+          "damage": 8,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Демон с цепью",
+      "model_name": "Chain Demon.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "За его спиной волочится длинная чёрная цепь, звенья которой светятся изнутри раскалёнными рунами. Демон улыбается редко, но когда улыбается, тень от цепи тянется дальше, чем должна.",
+        "Он охранял тех, кого приковывали к работе в нижних цехах. Узники исчезли, а надзиратель остался - теперь он путает любой свободный шаг с попыткой побега."
+      ],
+      "base_attributes": {
+        "hp": 280,
+        "shield": 90,
+        "physical_defense": 15,
+        "magic_resistance": 10,
+        "dodge": 5,
+        "damage": 7,
+        "attack_spead": 0.9,
+        "critical_damage": 50,
+        "critical_chance": 5,
+        "speed": 185,
+        "attack_lifesteal": 0,
+        "effect_resistance": 15,
+        "slow_effectiveness": 20,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Цепной захват",
+          "info": "Атакует цепью, притягивает героя и наносит удар по площади.",
+          "skill_image": "Chain_grab.png",
+          "range": 70,
+          "damage": 5,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Раскалённый метатель",
+      "model_name": "Heated Slugger.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Его обожжённые руки слишком велики для худого тела, а вокруг плеч кружится жаркий воздух. Метатель носит корзину с тлеющими кусками шлака так бережно, как другой носил бы детей.",
+        "Он был грузчиком у печей и научился различать металл по звуку падения. После смерти его слух остался, и каждый стук чужих сапог он принимает за сигнал бросить новую порцию расплава."
+      ],
+      "base_attributes": {
+        "hp": 220,
+        "shield": 65,
+        "physical_defense": 5,
+        "magic_resistance": 15,
+        "dodge": 5,
+        "damage": 6,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 175,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 0,
+        "stun_resistance": 5
+      },
+      "skills": [
+        {
+          "name": "Сброс тепла",
+          "info": "Бросает лавовые снаряды, которые остаются на земле и постепенно нагреваются, увеличивая область урона (до 180%)",
+          "skill_image": "Heating_blobs.png",
+          "range": 80,
+          "damage": 6,
+          "duration": 7
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Ремонтный автоматон",
+      "model_name": "Repair Automaton.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Ремонтный автоматон ниже остальных машин и обвешан тонкими манипуляторами, оканчивающимися клещами и иглами. На его корпусе нет оружия - только аккуратные пластины, отполированные сотнями ремонтов.",
+        "Его сделали для того, чтобы Кузница никогда не останавливалась. Он не понимает, что мастера ушли, а потому чинит всё, что ещё двигается, с почти трогательной и страшной преданностью."
+      ],
+      "base_attributes": {
+        "hp": 190,
+        "shield": 55,
+        "physical_defense": 10,
+        "magic_resistance": 10,
+        "dodge": 5,
+        "damage": 3,
+        "attack_spead": 0.8,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 200,
+        "attack_lifesteal": 0,
+        "effect_resistance": 15,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Полевой ремонт",
+          "info": "Чинит союзных механических противников (на 5% в секунду), пока не будет уничтожен",
+          "skill_image": "Field_repair.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Самосохранение механизма",
+          "info": "Прячется подальше от героя при низком здоровье и чинит себя на 8% в секунду",
+          "skill_image": "Selfpreservation_machine.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 5
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Молотобоец",
+      "model_name": "Hammer Striker.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Его плечи защищены пластинами, похожими на наковальни, а лицо скрыто под глухим железным шлемом. Каждый шаг молотобойца отдаётся в полу заранее, словно Кузница предупреждает о его приходе.",
+        "Он был первым из рабочих, кто услышал в ударах молота ответный ритм. С тех пор он отбивает этот ритм снова и снова, надеясь, что когда-нибудь Кузница ответит ему человеческим голосом."
+      ],
+      "base_attributes": {
+        "hp": 340,
+        "shield": 100,
+        "physical_defense": 30,
+        "magic_resistance": 10,
+        "dodge": 0,
+        "damage": 9,
+        "attack_spead": 0.65,
+        "critical_damage": 50,
+        "critical_chance": 5,
+        "speed": 140,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 0,
+        "stun_resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Ударная волна молота",
+          "info": "наносит медленные удары по полу, создавая волны, от которых можно увернуться рывком или отбежать",
+          "skill_image": "Shock_wave_hammer.png",
+          "range": 220,
+          "damage": 3,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Огненный литейщик",
+      "model_name": "Molten Metal Caster.png",
+      "enemy_location_id": 3,
+      "game_description": [
+        "Вместо обычных рук у него тяжёлые ковши, из которых по каплям стекает бело-оранжевый металл. Его силуэт окружён паром, и только густая тень выдаёт, что за завесой стоит не механизм.",
+        "Литейщик следил за разливом, когда формы ещё имели имена и назначение. Теперь формы пусты, но он продолжает наполнять ими пол, будто ждёт, что из расплава однажды поднимется прежний порядок."
+      ],
+      "base_attributes": {
+        "hp": 270,
+        "shield": 90,
+        "physical_defense": 15,
+        "magic_resistance": 20,
+        "dodge": 0,
+        "damage": 6,
+        "attack_spead": 0.8,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 155,
+        "attack_lifesteal": 0,
+        "effect_resistance": 30,
+        "slow_effectiveness": 0,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Разлив расплава",
+          "info": "Поливает выбранный сегмент расплавленным металлом, временно делая его непроходимым. Расплавленный металл выталкивает героев и противников во время своего разлития",
+          "skill_image": "Pour_molten.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 3.5
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Истерзанная душа",
+      "model_name": "Tortured Soul.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "Она похожа на силуэт, выжженный на камне: тонкая фигура, обвитая полупрозрачными лентами боли. В её груди дрожит слабый свет, то вспыхивающий, то почти угасающий.",
+        "Эта душа не смогла найти путь к фонарю и застряла среди руин, где законы сильнее милосердия. Она не просит помощи - слишком давно ждёт, что кто-то прочтёт её имя на разрушенной плите."
+      ],
+      "base_attributes": {
+        "hp": 240,
+        "shield": 130,
+        "physical_defense": 5,
+        "magic_resistance": 30,
+        "dodge": 15,
+        "damage": 7,
+        "attack_spead": 1.05,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 220,
+        "attack_lifesteal": 0,
+        "effect_resistance": 30,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Бестелесность",
+          "info": "После гибели оставляет душу, способную возродить её",
+          "skill_image": "Incorporeality.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 5
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Знаменосец",
+      "model_name": "Standard Bearer.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "Его знамя истлело, но золотая нить на ткани всё ещё ловит солнечный свет сквозь проломы крыши. Под выцветшим плащом стоит неподвижный воин, чей шлем давно прирос к черепу.",
+        "Он нёс штандарт армии, которая обещала защищать порядок до последнего дня. День кончился, царство исчезло, а знамя всё ещё требует, чтобы окружающие помнили, за что должны стоять."
+      ],
+      "base_attributes": {
+        "hp": 360,
+        "shield": 120,
+        "physical_defense": 20,
+        "magic_resistance": 20,
+        "dodge": 5,
+        "damage": 7,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 180,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 0,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Воодушевление",
+          "info": "Усиливает скорость и урон союзников вокруг себя на 30%. При покидании области действия противник сохраняет этот бонус ещё 1 секунду",
+          "skill_image": "Call_banner.png",
+          "range": 700,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Забытый страж",
+      "model_name": "Forgotten Guardian.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "На его древнем щите выбиты стёртые гербы, а из трещин в броне растёт сухая трава. Страж выглядит частью разрушенной стены, пока пыль не оседает с его плеч.",
+        "Он был оставлен у тронного зала после того, как никто не пришёл сменить караул. Века превратили ожидание в характер, и теперь любой гость кажется ему запоздалой угрозой."
+      ],
+      "base_attributes": {
+        "hp": 430,
+        "shield": 200,
+        "physical_defense": 35,
+        "magic_resistance": 15,
+        "dodge": 0,
+        "damage": 7,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 135,
+        "attack_lifesteal": 0,
+        "effect_resistance": 25,
+        "slow_effectiveness": 0,
+        "stun_resistance": 35
+      },
+      "skills": [
+        {
+          "name": "Щит забытого стража",
+          "info": "Закрывается щитом, снижая входящий урон спереди на 85%. Во время защиты замедляется на 50%",
+          "skill_image": "Shield_forgotten_guardian.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Разбойник",
+      "model_name": "Rogue.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "Тёмный плащ скрывает лёгкую фигуру, а на маске разбойника нет ни глаз, ни рта - только тонкая серебряная царапина. Он появляется там, где колонны отбрасывают самые длинные тени.",
+        "Когда-то он воровал печати у чиновников первого царства, надеясь продать свободу тем, кто не мог её купить. Печати пережили его самого, и теперь он всё ещё ищет замки, которые стоит открыть."
+      ],
+      "base_attributes": {
+        "hp": 260,
+        "shield": 60,
+        "physical_defense": 10,
+        "magic_resistance": 5,
+        "dodge": 30,
+        "damage": 10,
+        "attack_spead": 1.35,
+        "critical_damage": 75,
+        "critical_chance": 15,
+        "speed": 275,
+        "attack_lifesteal": 0,
+        "effect_resistance": 10,
+        "slow_effectiveness": 0,
+        "stun_resistance": 5
+      },
+      "skills": [
+        {
+          "name": "Фланговая расправа",
+          "info": "Быстро обходит героя с фланга и наносит серию коротких ударов",
+          "skill_image": "Flanking_assault.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Единство с туманом",
+          "info": "Уходит в невидимость при получении значительного урона за раз (срабатывает каждый раз при уменьшении здоровья на 30%)",
+          "skill_image": "Smoke_disappearance.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Тюремщик",
+      "model_name": "Jailer.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "Его ключи висят на поясе тяжёлой связкой, а цепи на руках звенят без ветра. Лицо тюремщика скрыто решётчатым шлемом, за которым краснеет один внимательный глаз.",
+        "В старом царстве он отвечал за камеры, где держали не преступников, а опасные решения. Узники исчезли вместе с эпохой, но тюремщик по-прежнему уверен: свободу нужно сначала заслужить."
+      ],
+      "base_attributes": {
+        "hp": 360,
+        "shield": 130,
+        "physical_defense": 25,
+        "magic_resistance": 15,
+        "dodge": 5,
+        "damage": 8,
+        "attack_spead": 0.85,
+        "critical_damage": 50,
+        "critical_chance": 5,
+        "speed": 165,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 30,
+        "stun_resistance": 25
+      },
+      "skills": [
+        {
+          "name": "Оковы темницы",
+          "info": "Бросает цепи, временно ограничивающие движение",
+          "skill_image": "Shackles_prison.png",
+          "range": 65,
+          "damage": 0,
+          "duration": 1.7
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Древний храмовник",
+      "model_name": "Ancient Templar.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "Белый плащ храмовника превратился в серые лоскуты, но на груди ещё виден знак солнечного круга. Его меч ровно отражает свет, будто лезвие никогда не касалось крови.",
+        "Он принёс клятву защищать закон, не задавая вопросов. Когда закон остался без людей, храмовник продолжил охранять его буквальный смысл - холодный, прямой и не знающий сострадания."
+      ],
+      "base_attributes": {
+        "hp": 360,
+        "shield": 160,
+        "physical_defense": 25,
+        "magic_resistance": 20,
+        "dodge": 5,
+        "damage": 9,
+        "attack_spead": 0.9,
+        "critical_damage": 50,
+        "critical_chance": 10,
+        "speed": 190,
+        "attack_lifesteal": 0,
+        "effect_resistance": 25,
+        "slow_effectiveness": 0,
+        "stun_resistance": 25
+      },
+      "skills": [
+        {
+          "name": "Клятвенный выпад",
+          "info": "Выполняет длинный выпад мечом",
+          "skill_image": "Oathbound_thrust.png",
+          "range": 0,
+          "damage": 2,
+          "duration": 0
+        },
+        {
+          "name": "Парирование",
+          "info": "Становится в защитую стойку и отражает назад все летящие в него снаряды. Отражённые снаряды не могут навредить его союзникам",
+          "skill_image": "Stance_reflection.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 3.5
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Искажённый проповедник",
+      "model_name": "Twisted Preacher.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "Его ряса испачкана чернилами и золой, а лицо спрятано за маской, исписанной обрывками молитв. Слова вокруг него звучат не ушами: они ложатся на плечи тяжестью.",
+        "Проповедник однажды заметил противоречие в священном тексте и решил, что исправить его можно только в людях. Руины сохранили его голос, но исказили смысл - теперь каждая проповедь похожа на проклятие."
+      ],
+      "base_attributes": {
+        "hp": 240,
+        "shield": 150,
+        "physical_defense": 5,
+        "magic_resistance": 30,
+        "dodge": 10,
+        "damage": 6,
+        "attack_spead": 0.85,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 175,
+        "attack_lifesteal": 0,
+        "effect_resistance": 35,
+        "slow_effectiveness": 25,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Проклятие проповеди",
+          "info": "После применения накладывает на героя ослабление, которое снижает скорость передвижения, скорость атаки и урон от заклинаний на 20%",
+          "skill_image": "Curse_sermon.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 5
+        },
+        {
+          "name": "Благословение ереси",
+          "info": "После применения накладывает на союзника усиление, которое увеличивает его урон и скорость передвижения на 25%, а также дважды полностью блокирует полученный им урон",
+          "skill_image": "Blessing_heresy.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 5
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Рунический страж",
+      "model_name": "Runic Guardian.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "На его каменной броне светятся угловатые руны, соединённые тонкими линиями, как карта забытого города. Когда он поднимает руку, знаки на плитах вокруг отвечают короткими вспышками.",
+        "Его вырезали из постамента, чтобы хранить печати, связывающие волю царства с самим городом. Царство исчезло, но цепочка приказов не оборвалась - она просто больше не помнит, кому служит."
+      ],
+      "base_attributes": {
+        "hp": 330,
+        "shield": 190,
+        "physical_defense": 20,
+        "magic_resistance": 30,
+        "dodge": 0,
+        "damage": 8,
+        "attack_spead": 0.85,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 160,
+        "attack_lifesteal": 0,
+        "effect_resistance": 35,
+        "slow_effectiveness": 0,
+        "stun_resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Руническая цепь",
+          "info": "Соединяет себя и всех других стражей, проводя разряд тока между ними всеми",
+          "skill_image": "Runic_chain.png",
+          "range": 0,
+          "damage": 10,
+          "duration": 0.6
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Разоритель",
+      "model_name": "Ravager.png",
+      "enemy_location_id": 4,
+      "game_description": [
+        "Его тело покрыто следами старых обвалов, а за спиной он тащит кусок колонны, словно трофей. В выбитых глазницах горит пыльный янтарный свет.",
+        "Разоритель пришёл из тех, кто ломал памятники свергнутого царя. Камни пережили победителей и сделали его частью своей мести: теперь он рушит всё, что ещё пытается стоять прямо."
+      ],
+      "base_attributes": {
+        "hp": 400,
+        "shield": 80,
+        "physical_defense": 30,
+        "magic_resistance": 10,
+        "dodge": 0,
+        "damage": 11,
+        "attack_spead": 0.7,
+        "critical_damage": 50,
+        "critical_chance": 5,
+        "speed": 145,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 0,
+        "stun_resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Бросок глыбы",
+          "info": "Бросает медленно летящие обломки в героя. Обломки остаются на поверхности ещё несколько секунд, блокируя проход",
+          "skill_image": "Fragments_judgment.png",
+          "range": 60,
+          "damage": 13,
+          "duration": 8
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Тень ученика",
+      "model_name": "Apprentice Shadow.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Её тонкая фигура напоминает не человека, а его неверно отлитое отражение; края плаща распадаются на чернильные мазки. Она повторяет жесты других с короткой, тревожной задержкой.",
+        "Когда-то ученица переписывала чужие заклинания в Архиве и не успела создать ни одного своего. После исчезновения мастера тень осталась среди страниц, пытаясь доказать, что копия тоже может захотеть жить."
+      ],
+      "base_attributes": {
+        "hp": 240,
+        "shield": 100,
+        "physical_defense": 5,
+        "magic_resistance": 20,
+        "dodge": 25,
+        "damage": 7,
+        "attack_spead": 1.15,
+        "critical_damage": 50,
+        "critical_chance": 10,
+        "speed": 245,
+        "attack_lifesteal": 0,
+        "effect_resistance": 25,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Подражание",
+          "info": "Повторяет последнюю базовую атаку героя или рывок и проводит её в сторону героя после небольшой задержки. Урон такого удара на 60% меньше, чем у героя",
+          "skill_image": "Delayed_imitation.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 1.1
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Фолиант познания",
+      "model_name": "Tome of Knowledge.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Книга парит раскрытой, а её страницы перелистывает невидимый ветер. По полям ползут светящиеся строки, и каждая буква на миг складывается в зрачок.",
+        "В ней собраны знания, от которых авторы отказались слишком поздно. Фолиант не различает истину и опасность: он хранит всё одинаково бережно, потому что для книги любая потеря - преступление."
+      ],
+      "base_attributes": {
+        "hp": 180,
+        "shield": 180,
+        "physical_defense": 5,
+        "magic_resistance": 35,
+        "dodge": 5,
+        "damage": 3,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 140,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Переплёт неуязвимости",
+          "info": "Накладывает постоянную неуязвимость на одного союзника. Между защищённым союзником и фолиантом всегда есть визуальная электрическая цепь-связь",
+          "skill_image": "Binding_invulnerability.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Кристальный дуэлянт",
+      "model_name": "Crystal Duelist.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Его тело огранено, как клинок, а внутри прозрачной груди застыли сразу несколько отражений одной фигуры. Каждый шаг оставляет на полу короткую полоску радужного света.",
+        "Дуэлянта записали в Архив как идеальный вариант воина - без страха, сомнений и усталости. Но отражение оказалось слишком совершенным, чтобы признать кого-то ещё оригиналом."
+      ],
+      "base_attributes": {
+        "hp": 270,
+        "shield": 110,
+        "physical_defense": 10,
+        "magic_resistance": 15,
+        "dodge": 25,
+        "damage": 9,
+        "attack_spead": 1.3,
+        "critical_damage": 75,
+        "critical_chance": 15,
+        "speed": 255,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Призматическая копия",
+          "info": "Создаёт ложную копию себя, которая наносит 1 урона. Одновременно может быть до 2-х копий",
+          "skill_image": "Prismatic_copy.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 8
+        },
+        {
+          "name": "Зеркальная рокировка",
+          "info": "Может поменяться местами со своей копией",
+          "skill_image": "Mirror_exchange.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Призрачный рыцарь",
+      "model_name": "Phantom Knight.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Рыцарь закован в полупрозрачные латы, под которыми нет тела, только холодное синее сияние. Его плащ тянется за ним тонким шлейфом, будто мир не успевает дорисовать силуэт.",
+        "Он был героем истории, которую вычеркнули перед последней главой. В Архиве он всё ещё ищет финальную битву, не понимая, что автор давно закрыл книгу."
+      ],
+      "base_attributes": {
+        "hp": 330,
+        "shield": 130,
+        "physical_defense": 20,
+        "magic_resistance": 20,
+        "dodge": 15,
+        "damage": 10,
+        "attack_spead": 1.05,
+        "critical_damage": 50,
+        "critical_chance": 10,
+        "speed": 220,
+        "attack_lifesteal": 0,
+        "effect_resistance": 25,
+        "slow_effectiveness": 0,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Призрачный наскок",
+          "info": "Телепортируется на короткое расстояние и атакует рывком",
+          "skill_image": "Phantom_strike.png",
+          "range": 190,
+          "damage": 10,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Призматический стрелок",
+      "model_name": "Prismatic Shooter.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Его лук выточен из прозрачного кристалла, а в натянутой тетиве дрожит радужный луч. Лицо стрелка скрывает гладкая призма, отражающая окружающих под неверным углом.",
+        "Он служил охране залов, где хранились несбывшиеся варианты будущего. Однажды он увидел в кристалле собственную смерть и с тех пор стреляет так, будто пытается разбить именно это отражение."
+      ],
+      "base_attributes": {
+        "hp": 220,
+        "shield": 140,
+        "physical_defense": 5,
+        "magic_resistance": 25,
+        "dodge": 15,
+        "damage": 9,
+        "attack_spead": 1.1,
+        "critical_damage": 75,
+        "critical_chance": 10,
+        "speed": 205,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Рикошетные стрелы",
+          "info": "Стреляет стрелами, которые могут до 4-х раз отражаться от кристаллов, меняя траекторию снарядов. Эти стрелы не разрушают кристаллы, даже если отражаются все 4 раза - в таком случае стрела просто исчезнет",
+          "skill_image": "Prismatic_ricochet_arrow.png",
+          "range": 0,
+          "damage": 6,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Кристальный голем",
+      "model_name": "Crystal Golem.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "В его огромном теле застряли разноцветные грани, словно голем был собран из рухнувшей витрины. Внутри каменной груди мерцает медленно вращающееся световое ядро.",
+        "Его создали, чтобы переносить тяжёлые хранилища между залами Архива. Когда проходы изменились, голем остался ждать нового маршрута и постепенно стал частью коллекции."
+      ],
+      "base_attributes": {
+        "hp": 470,
+        "shield": 200,
+        "physical_defense": 35,
+        "magic_resistance": 25,
+        "dodge": 0,
+        "damage": 10,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 125,
+        "attack_lifesteal": 0,
+        "effect_resistance": 35,
+        "slow_effectiveness": 0,
+        "stun_resistance": 40
+      },
+      "skills": [
+        {
+          "name": "Распад призмы",
+          "info": "Раскалывающийся на кучку из 3-5 кристаллов-призм при гибели. Эти кристаллы также могут отражать выстрелы",
+          "skill_image": "Postmortem_prism.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Резонансный камень",
+      "model_name": "Resonance Stone.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Этот камень невысок, но вокруг него воздух звенит, как натянутая струна. По гладкой поверхности расходятся круги света, и каждая трещина вспыхивает в своём ритме.",
+        "Он был настроечным образцом для кристаллов, пока однажды не начал отвечать на собственное эхо. Теперь камень слушает весь Архив и считает себя его единственным верным голосом."
+      ],
+      "base_attributes": {
+        "hp": 450,
+        "shield": 0,
+        "physical_defense": 25,
+        "magic_resistance": 30,
+        "dodge": 0,
+        "damage": 7,
+        "attack_spead": 0.8,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 0,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 100,
+        "stun_resistance": 100
+      },
+      "skills": [
+        {
+          "name": "Неподвижность",
+          "info": "Не может двигаться или быть передвинут",
+          "skill_image": "Immobility.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Резонансный ритм",
+          "info": "Выпускает импульсы по ритмическому циклу",
+          "skill_image": "Resonant_rhythm.png",
+          "range": 220,
+          "damage": 7,
+          "duration": 0.3
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Рунический надзиратель",
+      "model_name": "Runic Overseer.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Его броня собрана из страниц, кристальных пластин и печатей, наложенных одна поверх другой. Из-под шлема льётся ровный фиолетовый свет, похожий на взгляд библиотекаря, который уже знает ответ.",
+        "Надзиратель следит, чтобы запрещённые варианты не покидали своих полок. Он не ненавидит пришельцев - просто считает их ещё одной ошибкой каталога, которую нужно аккуратно исправить."
+      ],
+      "base_attributes": {
+        "hp": 320,
+        "shield": 180,
+        "physical_defense": 15,
+        "magic_resistance": 30,
+        "dodge": 5,
+        "damage": 8,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 175,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 25,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Приказ вечной руны",
+          "info": "Активирует руну, накладывающую временные ограничения на героя. Уничтожение надзирателя мгновенно снимет эффект соответствующей руны с героя",
+          "skill_image": "Command_eternal_runes.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Жнец",
+      "model_name": "Shard Reaper.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Его плащ состоит из длинных осколков стекла, звенящих при каждом движении. Под капюшоном видна тьма, в которой вращается один багровый кристалл.",
+        "Жнец собирает не души, а неудачные версии событий, оставшиеся после чужих решений. Каждая грань на его одежде хранит мгновение, которое кому-то очень хотелось забыть."
+      ],
+      "base_attributes": {
+        "hp": 290,
+        "shield": 100,
+        "physical_defense": 10,
+        "magic_resistance": 15,
+        "dodge": 20,
+        "damage": 10,
+        "attack_spead": 1.1,
+        "critical_damage": 75,
+        "critical_chance": 10,
+        "speed": 225,
+        "attack_lifesteal": 0,
+        "effect_resistance": 20,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Возвратный осколок",
+          "info": "Бросает бумеранговидные кристаллы, возвращающиеся к нему по дуге. Если этот кристалл отражается от поверхности - он не возвращается к противнику, а падает спустя какое-то время полёта",
+          "skill_image": "Returning_shard.png",
+          "range": 300,
+          "damage": 11,
+          "duration": 0.8
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Зеркальный маг",
+      "model_name": "Mirror Mage.png",
+      "enemy_location_id": 5,
+      "game_description": [
+        "Его лицо скрыто зеркальной маской, не отражающей владельца, а показывающей другого человека. По мантии мага бегут тонкие трещины света, будто он вот-вот разобьётся на отражения.",
+        "Он был хранителем зеркального зала и слишком долго смотрел на варианты собственной судьбы. В конце концов один из вариантов вышел наружу, а остальные остались спорить, кто из них настоящий."
+      ],
+      "base_attributes": {
+        "hp": 220,
+        "shield": 180,
+        "physical_defense": 5,
+        "magic_resistance": 35,
+        "dodge": 10,
+        "damage": 8,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 180,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": [
+        {
+          "name": "Зеркальный заряд",
+          "info": "Заряжает себя магий, что отражает первый полученный им снаряд. Отражённые снаряды наводятся на позицию героя в момент отражения",
+          "skill_image": "Mirror_charge.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 5
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Часовой страж",
+      "model_name": "Clockwork Sentinel.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "Его броня бела и безупречна, а под ней тихо щёлкают шестерни вместо сердца. На спине стража закреплён маленький циферблат, чьи стрелки идут в обратную сторону.",
+        "Его поставили у моста в день, когда город решил остановить время. Караул не менялся с тех пор, и часовой уже не отличает прибытие гостя от возвращения вчерашнего дня."
+      ],
+      "base_attributes": {
+        "hp": 480,
+        "shield": 260,
+        "physical_defense": 40,
+        "magic_resistance": 25,
+        "dodge": 0,
+        "damage": 11,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 140,
+        "attack_lifesteal": 0,
+        "effect_resistance": 35,
+        "slow_effectiveness": 0,
+        "stun_resistance": 45
+      },
+      "skills": [
+        {
+          "name": "Удар часового стража",
+          "info": "Наносит медленные удары, оглушающие при попадании",
+          "skill_image": "Strike_clockwork_guardian.png",
+          "range": 0,
+          "damage": 8,
+          "duration": 0.4
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Песочный стрелок",
+      "model_name": "Sand Shooter.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "Он носит лёгкий золотистый доспех, из трещин которого сыплется сухой белый песок. За каждым движением стрелка остаётся тонкий след, быстро исчезающий в воздухе.",
+        "Песочный стрелок служил городским часам и учился попадать в точный миг, а не в точное место. Когда время застыло, ему осталось только преследовать секунды, которые пытаются убежать."
+      ],
+      "base_attributes": {
+        "hp": 320,
+        "shield": 190,
+        "physical_defense": 10,
+        "magic_resistance": 40,
+        "dodge": 15,
+        "damage": 10,
+        "attack_spead": 1.05,
+        "critical_damage": 50,
+        "critical_chance": 5,
+        "speed": 200,
+        "attack_lifesteal": 0,
+        "effect_resistance": 30,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Ускоряющийся песок",
+          "info": "Выпускает снаряды, которые постоянно ускоряются после короткой задержки",
+          "skill_image": "Accelerating_sand.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0.7
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Хрономант",
+      "model_name": "Chronomancer.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "Его мантия покрыта вышитыми циферблатами, а длинные волосы движутся, словно под водой. В ладонях хрономанта вращаются маленькие сферы с заключёнными внутри рассветами и закатами.",
+        "Он помогал архитекторам города измерять вечность, пока не понял, что её нельзя закончить расчётом. Теперь он пытается исправить формулу каждым новым заклинанием, не замечая, что повторяет её снова."
+      ],
+      "base_attributes": {
+        "hp": 270,
+        "shield": 250,
+        "physical_defense": 5,
+        "magic_resistance": 50,
+        "dodge": 10,
+        "damage": 8,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 190,
+        "attack_lifesteal": 0,
+        "effect_resistance": 45,
+        "slow_effectiveness": 35,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Сдвиг хрономанта",
+          "info": "После применения замедляет героев и ускоряет союзников на 35% в радиусе вокруг себя",
+          "skill_image": "Shift_chronomancer.png",
+          "range": 260,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Хранитель часов",
+      "model_name": "Clock Keeper.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "На его спине закреплены связки ключей, маятников и обломков часовых стрелок. Лицо хранителя скрывает гладкая маска с единственной узкой прорезью, где медленно переливается золотой песок.",
+        "Он отвечал за главный механизм города и всегда возвращал стрелку туда, где ей положено быть. Однажды механизм остановился, но хранитель не посмел признать ошибку - и начал возвращать назад всё остальное."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 220,
+        "physical_defense": 10,
+        "magic_resistance": 45,
+        "dodge": 10,
+        "damage": 8,
+        "attack_spead": 0.85,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 175,
+        "attack_lifesteal": 0,
+        "effect_resistance": 45,
+        "slow_effectiveness": 0,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Возврат мгновения",
+          "info": "Возвращает героя на позицию, которую он занимал секунду назад. Подготовка к перемещению занимает некоторое время и его можно отменить, если нанести этому хранителю часов любой урон. Максимум героя может перемещать только один хранитель часов",
+          "skill_image": "Return_second.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Песочный голем",
+      "model_name": "Sand Golem.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "Голем сложен из плотного белого песка, удерживаемого тонкими золотыми обручами. В его груди виднеется тёмный сосуд, вокруг которого песчинки кружатся, как маленькая буря.",
+        "Его создали из песка разбитых часов, чтобы подметать площади после временных бурь. Со временем он вобрал в себя столько остановленных мгновений, что сам стал похож на движущуюся песочную бурю."
+      ],
+      "base_attributes": {
+        "hp": 420,
+        "shield": 250,
+        "physical_defense": 35,
+        "magic_resistance": 30,
+        "dodge": 0,
+        "damage": 10,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 125,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 0,
+        "stun_resistance": 40
+      },
+      "skills": [
+        {
+          "name": "Песочная реконструкция",
+          "info": "После получения серии ударов рассыпается, а затем собирается вновь, если его ядро не уничтожено. Получает урон только в форме с открытым ядром",
+          "skill_image": "Sand_reconstruction.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Временной двойник",
+      "model_name": "Temporal Double.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "Силуэт двойника похож на героя лишь на первый взгляд: пропорции чуть неверны, движения приходят на миг позже, а лицо остаётся пустым. Его края мерцают двойным контуром, как отражение в дрожащем стекле.",
+        "Он родился из секунды, которую город отказался отпустить. Двойник не знает, кто он, зато помнит каждое движение того, на кого смотрит, и считает эту память своей жизнью."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 160,
+        "physical_defense": 10,
+        "magic_resistance": 30,
+        "dodge": 25,
+        "damage": 9,
+        "attack_spead": 1.15,
+        "critical_damage": 50,
+        "critical_chance": 10,
+        "speed": 245,
+        "attack_lifesteal": 0,
+        "effect_resistance": 35,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Эхо будущего",
+          "info": "Повторяет последнюю атаку или способность героя с небольшой задержкой. Такая атака наносит только 25% урона оригинальной атаки. Атака всегда направлена в сторону героя",
+          "skill_image": "Echo_future.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0.9
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Колокол времени",
+      "model_name": "Bell of Time.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "Колокол висит в воздухе без башни и верёвки, покрытый золотой патиной и тонкими трещинами. Внутри его пустоты иногда видно ночное небо, хотя вокруг сияют вечные облака.",
+        "Когда город ещё жил, колокол звал жителей к началу каждого дня. Теперь он звонит, чтобы напомнить: день так и не начался, а значит, никто не имеет права уходить."
+      ],
+      "base_attributes": {
+        "hp": 400,
+        "shield": 200,
+        "physical_defense": 30,
+        "magic_resistance": 40,
+        "dodge": 0,
+        "damage": 8,
+        "attack_spead": 0.75,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 120,
+        "attack_lifesteal": 0,
+        "effect_resistance": 45,
+        "slow_effectiveness": 30,
+        "stun_resistance": 45
+      },
+      "skills": [
+        {
+          "name": "Звон времени",
+          "info": "Создаёт звуковую волну, которая оглушает героев на 0.3 секунды и оставляет замедляющий след. След амедляет на 25%",
+          "skill_image": "Chime_stopped_hour.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Хронометрический лучник",
+      "model_name": "Chronometric Archer.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "Его лук украшен тонкими зубцами, как часовой механизм, а стрелы заключены в стеклянные колбы с мерцающим песком. Под капюшоном виден лишь круглый хронометр вместо лица.",
+        "Лучник охранял часы на верхнем шпиле и учился видеть траектории до того, как они случатся. В остановленном городе его дар превратился в проклятие: он всё ещё целится в шаг, который уже был сделан."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 180,
+        "physical_defense": 10,
+        "magic_resistance": 35,
+        "dodge": 20,
+        "damage": 10,
+        "attack_spead": 1.1,
+        "critical_damage": 75,
+        "critical_chance": 10,
+        "speed": 215,
+        "attack_lifesteal": 0,
+        "effect_resistance": 30,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Временные стрелы",
+          "info": "Отмечает позицию героя 3 раза с интервалом в 0.6 секунд и через ещё 1 секунду выпускает по стреле в каждую из точек его прежней позиции",
+          "skill_image": "Arrows_past_moments.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Похититель времени",
+      "model_name": "Time Thief.png",
+      "enemy_location_id": 6,
+      "game_description": [
+        "На нём висит чужая одежда из разных эпох: рукав рыцаря, пояс купца, воротник старого судьи. Между пальцами вора поблёскивают украденные секунды - маленькие осколки янтарного света.",
+        "Он начинал с карманных часов, оставленных на скамье, и понял, что может красть не вещи, а время владельца. Город оказался идеальным убежищем: здесь никто не замечает пропажи, пока не становится поздно."
+      ],
+      "base_attributes": {
+        "hp": 330,
+        "shield": 140,
+        "physical_defense": 15,
+        "magic_resistance": 25,
+        "dodge": 25,
+        "damage": 11,
+        "attack_spead": 1.2,
+        "critical_damage": 75,
+        "critical_chance": 15,
+        "speed": 260,
+        "attack_lifesteal": 0,
+        "effect_resistance": 30,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Скоротечность времени",
+          "info": "При попадании уменьшает оставшееся время боя на 3 секунды",
+          "skill_image": "Fleeting_time.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Охотник бездны",
+      "model_name": "Abyss Hunter.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Его броня растворяется в чёрно-синем тумане, а на плечах растут тонкие шипы, похожие на обломки звёзд. На миг он обретает форму - и тут же снова становится частью тёмного разлома.",
+        "Охотник появился там, где из книги вырвали страницу с описанием ночного зверя. Бездна дописала недостающие строки сама, но вложила в них только голод и умение ждать."
+      ],
+      "base_attributes": {
+        "hp": 20,
+        "shield": 350,
+        "physical_defense": 10,
+        "magic_resistance": 30,
+        "dodge": 25,
+        "damage": 11,
+        "attack_spead": 1.25,
+        "critical_damage": 75,
+        "critical_chance": 15,
+        "speed": 275,
+        "attack_lifesteal": 0,
+        "effect_resistance": 35,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Отродье пустоты",
+          "info": "Полностью невидим и неуязвим пока находится в пустоте",
+          "skill_image": "Spawn_void.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Рывок бездны",
+          "info": "Совершает рывок из пустоты и атакует героя с фланга. После атаки ненадолго остаётся в точке прибытия, а затем снова совершает рывок в пустоту",
+          "skill_image": "Strike_from_rift.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 2.3
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Тень",
+      "model_name": "Shadow.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Это человеческий силуэт без лица и веса, обведённый тусклой фиолетовой каймой. Тень скользит по камню не вслед за светом, а наперерез ему, будто знает короткий путь через пространство.",
+        "Она принадлежала человеку, которого мир перестал помнить первым. В Бездне забытая тень обрела самостоятельность и теперь ищет того, за кем можно снова стать настоящей."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 170,
+        "physical_defense": 5,
+        "magic_resistance": 40,
+        "dodge": 25,
+        "damage": 10,
+        "attack_spead": 1.1,
+        "critical_damage": 75,
+        "critical_chance": 15,
+        "speed": 190,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Отродье пустоты",
+          "info": "Полностью невидим и неуязвим пока находится в пустоте",
+          "skill_image": "Shadows_in_the_void.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        },
+        {
+          "name": "Тень за спиной",
+          "info": "После выхода из пустоты становится полупрозрачным. Медленно под наносит атаки в спину герою",
+          "skill_image": "Shadow_behind_back.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Пустотный голем",
+      "model_name": "Void Golem.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Его тело собрано из тяжёлых чёрных плит, между которыми нет ничего, кроме дрожащей пустоты. Каждая трещина показывает иной угол мира, и смотреть в них дольше мгновения опасно.",
+        "Голем возник, когда два острова столкнулись в Бездне и не захотели разойтись. Пустота заполнила швы между камнями, придав обломкам силу и бесконечную тоску по распаду."
+      ],
+      "base_attributes": {
+        "hp": 490,
+        "shield": 260,
+        "physical_defense": 40,
+        "magic_resistance": 30,
+        "dodge": 0,
+        "damage": 11,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 130,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 0,
+        "stun_resistance": 45
+      },
+      "skills": [
+        {
+          "name": "Частички общего",
+          "info": "При гибели распадается на 2-3 големчиков",
+          "skill_image": "Fragmented_offspring.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Големчик",
+      "model_name": "Lesser Golem.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Маленькое создание похоже на осколок большого голема, которому забыли дать законченную форму. Его короткие руки цепляются за камень, а внутри груди мигает крошечный синий огонёк.",
+        "Он не знает, что является лишь частью чего-то большего. Для него каждый остров - целый мир, а каждая трещина в камне - бездна, которую нужно пережить."
+      ],
+      "base_attributes": {
+        "hp": 160,
+        "shield": 50,
+        "physical_defense": 15,
+        "magic_resistance": 15,
+        "dodge": 5,
+        "damage": 6,
+        "attack_spead": 1,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 200,
+        "attack_lifesteal": 0,
+        "effect_resistance": 15,
+        "slow_effectiveness": 0,
+        "stun_resistance": 10
+      },
+      "skills": []
+    },
+    {
+      "id": 71,
+      "name": "Пустотный портал",
+      "model_name": "Void Portal.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Портал выглядит как вертикальная рана в воздухе, обрамлённая обломками древней арки. Внутри него медленно перелистывается темнота, иногда показывая места, которых не должно существовать.",
+        "Его создали как выход из незаконченного слоя мира, но выход забыл, куда ведёт. Теперь он зовёт из пустоты тех, кому всё равно, где окажутся их первые и последние шаги."
+      ],
+      "base_attributes": {
+        "hp": 50,
+        "shield": 500,
+        "physical_defense": 10,
+        "magic_resistance": 50,
+        "dodge": 0,
+        "damage": 3,
+        "attack_spead": 0.7,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 0,
+        "attack_lifesteal": 0,
+        "effect_resistance": 45,
+        "slow_effectiveness": 0,
+        "stun_resistance": 40
+      },
+      "skills": [
+        {
+          "name": "Эхо пустоты",
+          "info": "Призывает одного охотника бездны, теню или големчика. Может призвать одного союзника не чаще раза в 7-9 секунд",
+          "skill_image": "Summoning_from_void.png",
+          "range": 0,
+          "damage": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Щупальце бездны",
+      "model_name": "Abyssal Tentacle.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Толстая чёрная плоть появляется из-под края острова, покрытая синими прожилками и редкими белыми присосками. Щупальце не имеет глаз, но всегда поворачивается туда, где кто-то уверен в твёрдой земле.",
+        "Оно выросло не из существа, а из самой привычки Бездны проверять границы. Каждый удар - вопрос, на который камень отвечает треском."
+      ],
+      "base_attributes": {
+        "hp": 250,
+        "shield": 0,
+        "physical_defense": 20,
+        "magic_resistance": 35,
+        "dodge": 0,
+        "damage": 10,
+        "attack_spead": 0.8,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 0,
+        "attack_lifesteal": 0,
+        "effect_resistance": 40,
+        "slow_effectiveness": 0,
+        "stun_resistance": 35
+      },
+      "skills": [
+        {
+          "name": "Касание бездны",
+          "info": "Атакует из пустоты по отмеченной области и исчезает после удара или спустя 15 секунд",
+          "skill_image": "Touch_abyss.png",
+          "range": 0,
+          "damage": 10,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Искажатель пространства",
+      "model_name": "Space Distorter.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Его фигура напоминает человека в длинном плаще, но складки ткани уходят внутрь себя, как коридоры без конца. Вокруг его рук прямые линии изгибаются, а близкие предметы кажутся то дальше, то ближе.",
+        "Искажатель был чертёжником мира, которого вычеркнули вместе с неудачным планом. В Бездне он продолжает править разметку реальности, не замечая, что стирает опору и под собственными ногами."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 240,
+        "physical_defense": 5,
+        "magic_resistance": 50,
+        "dodge": 10,
+        "damage": 8,
+        "attack_spead": 0.85,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 175,
+        "attack_lifesteal": 0,
+        "effect_resistance": 45,
+        "slow_effectiveness": 20,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Расширение разлома",
+          "info": "Создаёт в указанной области дополнительную зону пустоты",
+          "skill_image": "Expansion_rift.png",
+          "range": 90,
+          "damage": 0,
+          "duration": 5
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Пустотный стрелок",
+      "model_name": "Void Shooter.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Его лук словно собран из угловатых отрезков ночного неба, а стрелы меняют направление ещё до выстрела. Там, где должен быть взгляд, висит маленькая вращающаяся звезда.",
+        "Стрелок служит тем пустым проходам, что ведут сразу в несколько мест. Он никогда не промахивается, потому что для него путь стрелы - это не линия, а выбор, который уже сделан."
+      ],
+      "base_attributes": {
+        "hp": 300,
+        "shield": 180,
+        "physical_defense": 10,
+        "magic_resistance": 35,
+        "dodge": 20,
+        "damage": 10,
+        "attack_spead": 1.05,
+        "critical_damage": 50,
+        "critical_chance": 10,
+        "speed": 210,
+        "attack_lifesteal": 0,
+        "effect_resistance": 35,
+        "slow_effectiveness": 0,
+        "stun_resistance": 15
+      },
+      "skills": [
+        {
+          "name": "Хаотический выстрел",
+          "info": "Выпускает снаряды, которые летят по своей траектории (могут лететь по дуге или под углом до 90 градусов)",
+          "skill_image": "Broken_trajectory.png",
+          "range": 0,
+          "damage": 9,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Пожиратель маны",
+      "model_name": "Mana Devourer.png",
+      "enemy_location_id": 7,
+      "game_description": [
+        "Его тонкое тело обвито лентами тусклого света, которые втягиваются в грудь при каждом вдохе. На кончиках пальцев остаются серые искры - следы чужих недосказанных заклинаний.",
+        "Он питается не силой магии, а мгновением перед её рождением. Бездна научила его, что любое обещание можно проглотить раньше, чем оно станет действием."
+      ],
+      "base_attributes": {
+        "hp": 350,
+        "shield": 200,
+        "physical_defense": 10,
+        "magic_resistance": 45,
+        "dodge": 10,
+        "damage": 9,
+        "attack_spead": 0.9,
+        "critical_damage": 0,
+        "critical_chance": 0,
+        "speed": 190,
+        "attack_lifesteal": 0,
+        "effect_resistance": 45,
+        "slow_effectiveness": 0,
+        "stun_resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Голод по магии",
+          "info": "Выпускает волну, которая блокирует применение всех способностей, кроме рывка при попадании",
+          "skill_image": "Hunger_for_magic.png",
+          "range": 160,
+          "damage": 8,
+          "duration": 1.5
+        }
+      ]
+    }
+  ]
+}

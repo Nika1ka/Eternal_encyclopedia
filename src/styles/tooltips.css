@@ -1,0 +1,47 @@
+/* Shared tooltip cards for all encyclopedia sections. */
+.skill-tooltip { position: fixed; z-index: 100; width: min(350px, calc(100vw - 24px)); max-height: calc(100svh - 24px); overflow-y: auto; padding: 18px 20px; border: 1px solid #a9a4908c; border-radius: 12px; color: #d9dde2; background: #0b1019f7; box-shadow: 0 8px 28px #0007; font-size: 14px; line-height: 1.45; }
+.skill-tooltip .tooltip-title { color: var(--color-number); font-size: 17px; }
+.skill-tooltip p { margin: 10px 0 0; white-space: pre-line; }
+.skill-tooltip dl { margin: 14px 0 0; padding-top: 10px; border-top: 1px solid #ffffff24; }
+.skill-tooltip dl div { display: flex; justify-content: space-between; gap: 16px; }
+.skill-tooltip dd { margin: 0; color: #b9cafa; }
+.skill-tooltip-rich {
+  width: min(42rem, calc(100vw - 24px)); padding: 1.25rem;
+  border: 1px solid #6e74764d; border-radius: .65rem;
+  color: #adb7bc; background: linear-gradient(135deg, #0f0f0f, #161616ee);
+  box-shadow: inset 0 0 5px #ffffff12, 0 8px 28px #0007;
+  font-size: 1.15rem; font-weight: 600; line-height: 1.2;
+}
+.skill-card-header { display: grid; grid-template-columns: 5.25rem minmax(0, 1fr); gap: .6rem 1.25rem; align-items: start; margin-bottom: 2rem; }
+.skill-card-icon { grid-row: 1 / 3; width: 5.25rem; height: 5.25rem; overflow: hidden; border-radius: .6rem; box-shadow: 0 3px 8px #0007; }
+.skill-card-header h2, .skill-card-effect h3 { color: var(--color-number); font-size: 1.5rem; line-height: 1.15; margin: 0; font-weight: 700; overflow-wrap: anywhere; }
+.skill-card-meta { display: flex; align-items: center; gap: .7rem 1rem; flex-wrap: wrap; }
+.skill-card-meta .level-stars { gap: 0; }
+.skill-card-meta .level-stars button { width: 1.75rem; height: 1.85rem; padding: .12rem; }
+.skill-card-stat { display: inline-flex; align-items: center; gap: .45rem; white-space: nowrap; }
+.skill-card-stat img { width: 1.3rem; height: 1.3rem; object-fit: contain; }
+.skill-value-group { white-space: nowrap; }
+:is(.skill-tooltip, .skill-tooltip-rich) .skill-value { color: var(--color-number); font-weight: 700; }
+:is(.skill-tooltip, .skill-tooltip-rich) .skill-bonus { color: var(--color-bonus-positive); font-weight: 700; }
+.skill-tooltip .skill-card-description { margin: 0; white-space: pre-line; }
+.skill-card-parameters { margin-top: 1.6rem; }
+.skill-card-effect { margin-top: 1rem; padding: .75rem; border: 1px solid #adb7bc; border-radius: .5rem; }
+.skill-card-effect h3 { margin-bottom: 1.3rem; }
+@media (max-width: 600px) {
+  .skill-tooltip-rich { padding: 1rem; font-size: 1rem; }
+  .skill-card-header { grid-template-columns: 4rem minmax(0, 1fr); gap: .75rem; margin-bottom: 1.5rem; }
+  .skill-card-icon { width: 4rem; height: 4rem; }
+  .skill-card-header h2, .skill-card-effect h3 { font-size: 1.4rem; }
+  .skill-card-meta { grid-column: 1 / -1; gap: .6rem; }
+  .skill-card-parameters, .skill-card-effect { margin-top: 1.25rem; }
+}
+.skill-bonus.skill-bonus-negative { color: #dc5555; }
+.tooltip-image { width: 3.5rem; height: 3.5rem; object-fit: contain; float: left; margin: 0 12px 8px 0; border-radius: 5px; }
+.equipment-effect-tooltip {
+  width: min(34rem, calc(100vw - 24px)); padding: 0; border: 0; background: transparent;
+  font-size: 1.1rem; font-weight: 600; line-height: 1.2;
+  color: #afb8bd;
+}
+.equipment-effect-tooltip .equipment-ability { margin: 0; }
+.equipment-effect-tooltip .equipment-ability p { margin: .85rem 0 .1rem; white-space: normal; }
+@media (max-width: 500px) { .equipment-effect-tooltip { font-size: 1rem; } }

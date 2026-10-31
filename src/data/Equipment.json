@@ -1,0 +1,3115 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "name": "Перстень жизни",
+            "file_name": "Life_Ring.png",
+            "rarity": 0,
+            "game_description": "Перстень жизни выковали жрецы у источника, который считался кровью самой земли. Его носили странники, готовые отдать часть собственной силы ради стремительного восстановления. Говорят, металл кольца темнеет, когда хозяин забывает цену дара.",
+            "position_in_shop": [
+                0,
+                0
+            ],
+            "item_group": 0,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Enchanted Thread"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    -8,
+                    7
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Blood_River",
+                    "name": "Река крови",
+                    "info": "Даёт ${value1} вампиризма от атак"
+                }
+            ],
+            "skill_values": [
+                0.1
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    4
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 1,
+            "name": "Кольцо души",
+            "file_name": "Soul_Ring.png",
+            "rarity": 1,
+            "game_description": "Кольцо души создал безымянный мастер, пытавшийся заключить человеческую волю в серебряный обод. После его исчезновения кольцо много лет переходило от одного героя к другому. Каждый новый владелец оставлял в нём частицу своей души.",
+            "position_in_shop": [
+                0,
+                1
+            ],
+            "item_group": 0,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Enchanted Thread",
+                    "Scrap of Cloth"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Attack_speed",
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    -15,
+                    15,
+                    12
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Blood_River",
+                    "name": "Река крови",
+                    "info": "Даёт ${value1} вампиризма от атак"
+                }
+            ],
+            "skill_values": [
+                0.15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_speed",
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    5,
+                    3
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 2,
+            "name": "Талисман отречения",
+            "file_name": "Talisman_of_Abjuration.png",
+            "rarity": 2,
+            "game_description": "Талисман отречения появился в монастыре, где рыцари отказывались от мирских клятв перед последним походом. На его обратной стороне выгравированы имена тех, кто никогда не вернулся. С тех пор талисман считают символом силы, обретаемой через отказ от прошлого.",
+            "position_in_shop": [
+                0,
+                2
+            ],
+            "item_group": 0,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Scrap of Cloth",
+                    "Silk"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Attack_speed",
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    -15,
+                    20,
+                    20
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Blood_River",
+                    "name": "Река крови",
+                    "info": "Даёт ${value1} вампиризма от атак"
+                }
+            ],
+            "skill_values": [
+                0.15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Health",
+                    "Attack_speed"
+                ],
+                "attributes_bonus": [
+                    3,
+                    8
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 3,
+            "name": "Магическая брошка",
+            "file_name": "Magic_Brooch.png",
+            "rarity": 3,
+            "game_description": "Магическую брошку нашли среди сокровищ придворной чародейки, исчезнувшей в ночь большого затмения. Её серебряная застёжка покрыта крошечными рунами, которые невозможно прочитать дважды одинаково. Говорят, брошка сама выбирает момент, когда чужое колдовство должно обратиться в пустоту.",
+            "position_in_shop": [
+                0,
+                3
+            ],
+            "item_group": 1,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Gold Ore",
+                    "Dragon Steel"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Slow_effectiveness",
+                    "Effect_resistance"
+                ],
+                "attributes_bonus": [
+                    5,
+                    15,
+                    15
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Dead_Grip",
+                    "name": "Вечная жизнь",
+                    "info": "Увеличивает вампиризм на ${value1}, если у героя осталось меньше ${value2}% здоровья"
+                },
+                {
+                    "ability_image": "Spell_Reflection",
+                    "name": "Отражение заклинаний",
+                    "info": "Раз в ${value3} секунд поглощает любое заклинание, целью которого стал владелец"
+                }
+            ],
+            "skill_values": [
+                1,
+                15,
+                25
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Evasion_chance"
+                ],
+                "attributes_bonus": [
+                    2
+                ],
+                "skill_value_tags": [
+                    "value2"
+                ],
+                "skill_bonus": [
+                    4
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "name": "Королевская тиара",
+            "file_name": "Royal_Tiara.png",
+            "rarity": 4,
+            "game_description": "Королевскую тиару изготовили для правительницы, которая боялась не врагов, а предательства собственного двора. В камни оправы заключили осколки зеркала из храма истины. С тех пор тиара стала реликвией тех, кто пережил заговоры и сохранил корону. Некоторые летописцы утверждают, что её владелица всегда чувствовала приближение скрытой угрозы. Другие считают это лишь легендой, созданной придворными писцами. Однако ни один известный обладатель тиары не погиб от заклятия, направленного прямо в него.",
+            "position_in_shop": [
+                0,
+                4
+            ],
+            "item_group": 1,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Dragon Steel",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Slow_effectiveness",
+                    "Effect_resistance"
+                ],
+                "attributes_bonus": [
+                    8,
+                    15,
+                    15
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Dead_Grip",
+                    "name": "Вечная жизнь",
+                    "info": "Увеличивает вампиризм на ${value1}, если у героя осталось меньше ${value2}% здоровья"
+                },
+                {
+                    "ability_image": "Spell_Reflection",
+                    "name": "Отражение заклинаний",
+                    "info": "Раз в ${value3} секунд поглощает любое заклинание, целью которого стал владелец"
+                }
+            ],
+            "skill_values": [
+                1.2,
+                17,
+                20
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Effect_resistance"
+                ],
+                "attributes_bonus": [
+                    2,
+                    5
+                ],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    0.3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "Плащ стужи",
+            "file_name": "Cloak_of_Frost.png",
+            "rarity": 1,
+            "game_description": "Плащ стужи сшит из шерсти северного зверя, живущего там, где даже огонь костра замерзает на камнях. Старые охотники утверждают, что ткань была благословлена духом вечной зимы. Надевший плащ приносит с собой холод далёких ледяных равнин.",
+            "position_in_shop": [
+                1,
+                1
+            ],
+            "item_group": 2,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Enchanted Thread",
+                    "Scrap of Cloth"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Attack_speed",
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    5,
+                    -10,
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Arcane_Shield",
+                    "name": "Чародейский щит",
+                    "info": "Снижает скорость передвижения на ${value1}, а скорость атаки на ${value2} всех противников в радиусе ${value3} вокруг героя. Противники в радиусе ауры получают ${value4} урона в секунду"
+                }
+            ],
+            "skill_values": [
+                30,
+                25,
+                220,
+                15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_speed",
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    -5,
+                    2.5
+                ],
+                "skill_value_tags": [
+                    "value3"
+                ],
+                "skill_bonus": [
+                    30
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "Мантия волшебника",
+            "file_name": "Mage_Mantle.png",
+            "rarity": 2,
+            "game_description": "Мантию волшебника когда-то носил странствующий маг, собиравший заклинания в разных королевствах. На подоле остались следы пепла, снега и морской соли, ведь её хозяин никогда не задерживался в одном месте. После его смерти ученики разделили его библиотеку, но мантию оставили нетронутой. Они говорили, что ткань помнила больше заклинаний, чем любой из них.",
+            "position_in_shop": [
+                1,
+                2
+            ],
+            "item_group": 2,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Scrap of Cloth",
+                    "Silk"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Magic_resistance",
+                    "Attack_speed",
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    10,
+                    10,
+                    -20,
+                    10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Arcane_Shield",
+                    "name": "Чародейский щит",
+                    "info": "Снижает скорость передвижения на ${value1}, а скорость атаки на ${value2} всех противников в радиусе ${value3} вокруг героя. Противники в радиусе ауры получают ${value4} урона в секунду"
+                }
+            ],
+            "skill_values": [
+                35,
+                25,
+                240,
+                18
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_speed",
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    -8,
+                    4
+                ],
+                "skill_value_tags": [
+                    "value3",
+                    "value4"
+                ],
+                "skill_bonus": [
+                    25,
+                    5
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "name": "Пламенная мантия",
+            "file_name": "Flame_Mantle.png",
+            "rarity": 4,
+            "game_description": "Пламенная мантия была создана в кузнице, построенной внутри потухшего вулкана. Её нити пропитали золой древнего огня, который, по преданию, никогда полностью не угасает. Первым владельцем стал маг, отправившийся в земли вечного льда. Вернувшись спустя год, он сказал лишь, что мантия научилась помнить жар его родины. С тех пор её передают тем, кто способен пройти сквозь холод, не утратив внутреннего пламени. Иногда в складках ткани вспыхивают едва заметные искры, даже если вокруг нет огня.",
+            "position_in_shop": [
+                1,
+                4
+            ],
+            "item_group": 2,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Golden Fabric",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Magic_resistance",
+                    "Attack_speed",
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    10,
+                    20,
+                    -35,
+                    20
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Arcane_Shield",
+                    "name": "Чародейский щит",
+                    "info": "Снижает скорость передвижения на ${value1}, а скорость атаки на ${value2} всех противников в радиусе ${value3} вокруг героя. Противники в радиусе ауры получают ${value4} урона в секунду"
+                }
+            ],
+            "skill_values": [
+                35,
+                40,
+                250,
+                18
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    4
+                ],
+                "skill_value_tags": [
+                    "value3",
+                    "value4"
+                ],
+                "skill_bonus": [
+                    25,
+                    7
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "name": "Ледяной осколок",
+            "file_name": "Ice_Shards.png",
+            "rarity": 0,
+            "game_description": "Ледяной осколок отломили от алтаря в заброшенном храме зимнего божества. Кусок льда не тает даже под солнцем и хранит внутри тонкую серебряную трещину. Первые воины использовали его как наконечник для самодельного оружия.",
+            "position_in_shop": [
+                2,
+                0
+            ],
+            "item_group": 3,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Gold Ore"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Frostbite",
+                    "name": "Обморожение",
+                    "info": "Атаки героя снижают скорость передвижения и атаки цели на ${value1} в течении ${value2} секунд"
+                },
+                {
+                    "ability_image": "Armor_Corrosion",
+                    "name": "Разъедание брони",
+                    "info": "Снижает физическую защиту цели атаки на ${value3}%"
+                }
+            ],
+            "skill_values": [
+                20,
+                0.8,
+                15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value1"
+                ],
+                "skill_bonus": [
+                    8
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "Холодное лезвие",
+            "file_name": "Cold_Blade.png",
+            "rarity": 1,
+            "game_description": "Холодное лезвие выковано из стали, которую всю ночь охлаждали в горном источнике. Мастер, создавший его, верил, что холод делает металл терпеливым и точным. Клинок особенно ценили охотники, которым приходилось преследовать добычу по следам на снегу.",
+            "position_in_shop": [
+                2,
+                1
+            ],
+            "item_group": 3,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Iron Shard",
+                    "Silver"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    15
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Frostbite",
+                    "name": "Обморожение",
+                    "info": "Атаки героя снижают скорость передвижения и атаки цели на ${value1} в течении ${value2} секунд. Под действием обморожения эффективнось лечения цели снижается на ${value3}%"
+                },
+                {
+                    "ability_image": "Armor_Corrosion",
+                    "name": "Разъедание брони",
+                    "info": "Снижает физическую защиту цели атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                25,
+                0.8,
+                20,
+                15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    8,
+                    0.2
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "name": "Морозный кинжал",
+            "file_name": "Frost_Dagger.png",
+            "rarity": 2,
+            "game_description": "Морозный кинжал принадлежал убийце, служившему северному князю. Его рукоять обмотана белой кожей, а на лезвии выгравированы знаки старого зимнего ордена. После падения княжества кинжал исчез в ледяных пещерах. Через много лет его нашли рядом с замёрзшим скелетом, сжимавшим рукоять до последнего мгновения.",
+            "position_in_shop": [
+                2,
+                2
+            ],
+            "item_group": 3,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Silver",
+                    "Gold Ore"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed"
+                ],
+                "attributes_bonus": [
+                    15,
+                    10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Frostbite",
+                    "name": "Обморожение",
+                    "info": "Атаки героя снижают скорость передвижения и атаки цели на ${value1} в течении ${value2} секунд. Под действием обморожения эффективнось лечения цели снижается на ${value3}%"
+                },
+                {
+                    "ability_image": "Armor_Corrosion",
+                    "name": "Разъедание брони",
+                    "info": "Снижает физическую защиту цели атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                25,
+                1.2,
+                25,
+                15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value1",
+                    "value3"
+                ],
+                "skill_bonus": [
+                    10,
+                    5
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "name": "Ледяной меч",
+            "file_name": "Ice_Sword.png",
+            "rarity": 3,
+            "game_description": "Ледяной меч появился в руках рыцаря, который один отправился за пределы северной стены. По легенде, он вернулся через сорок дней с мечом из голубоватой стали и ни одной царапиной на доспехах. Рыцарь никогда не рассказывал, где нашёл оружие. Он лишь говорил, что клинок был выкован там, где зима длится дольше человеческой памяти.",
+            "position_in_shop": [
+                2,
+                3
+            ],
+            "item_group": 3,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Gold Ore",
+                    "Dragon Steel"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed"
+                ],
+                "attributes_bonus": [
+                    25,
+                    10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Frostbite",
+                    "name": "Обморожение",
+                    "info": "Атаки героя снижают скорость передвижения и атаки цели на ${value1} в течении ${value2} секунд. Под действием обморожения эффективнось лечения цели снижается на ${value3}%"
+                },
+                {
+                    "ability_image": "Armor_Corrosion",
+                    "name": "Разъедание брони",
+                    "info": "Снижает физическую защиту цели атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                30,
+                1.5,
+                25,
+                15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value1",
+                    "value3",
+                    "value4"
+                ],
+                "skill_bonus": [
+                    10,
+                    5,
+                    5
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "name": "Лунное сияние",
+            "file_name": "Moonlight.png",
+            "rarity": 4,
+            "game_description": "Лунное сияние получило своё имя из-за бледного света, возникающего на клинке после заката. Его создали эльфийские кузнецы из металла, найденного в кратере после падения небесного камня. Меч долго лежал в храмовом хранилище и считался слишком тихой реликвией для войны. Однажды его вынесли ночью, когда над городом взошла огромная красная луна. С тех пор оружие стало символом воинов, которые предпочитают холодную решимость ярости. Говорят, его поверхность отражает не лицо владельца, а последний путь, который ему предстоит пройти.",
+            "position_in_shop": [
+                2,
+                4
+            ],
+            "item_group": 3,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Dragon Steel",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed"
+                ],
+                "attributes_bonus": [
+                    30,
+                    10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Frostbite",
+                    "name": "Обморожение",
+                    "info": "Атаки героя снижают скорость передвижения и атаки цели на ${value1} в течении ${value2} секунд. Под действием обморожения эффективнось лечения цели снижается на ${value3}%"
+                },
+                {
+                    "ability_image": "Armor_Corrosion",
+                    "name": "Разъедание брони",
+                    "info": "Снижает физическую защиту цели атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                30,
+                1.5,
+                30,
+                20
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value1",
+                    "value3",
+                    "value4"
+                ],
+                "skill_bonus": [
+                    10,
+                    5,
+                    10
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "name": "Волшебный порошок",
+            "file_name": "Magic_Powder.png",
+            "rarity": 0,
+            "game_description": "Волшебный порошок смешивали алхимики, изучавшие движение звёзд. Они собирали его из редкой пыли, осевшей на крышах обсерваторий после метеорных дождей. Даже небольшая щепотка считалась достаточной для обряда предсказания.",
+            "position_in_shop": [
+                3,
+                0
+            ],
+            "item_group": 4,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Magic Dust"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Shield"
+                ],
+                "attributes_bonus": [
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Star_Charts",
+                    "name": "Звёздные карты",
+                    "info": "С шансом ${value1}% предлагаемый Аркан получит бонусный уровень"
+                }
+            ],
+            "skill_values": [
+                13
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value1"
+                ],
+                "skill_bonus": [
+                    4
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "name": "Космический талисман",
+            "file_name": "Cosmic_Talisman.png",
+            "rarity": 1,
+            "game_description": "Космический талисман вырезан из камня, который упал на землю во время древнего небесного огня. На его поверхности изображены созвездия, которых нет ни на одной современной карте. Астрологи считают, что талисман связывает судьбу владельца с далёкими звёздами. Поэтому его часто брали в походы те, кто хотел изменить заранее написанную судьбу.",
+            "position_in_shop": [
+                3,
+                1
+            ],
+            "item_group": 4,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Magic Dust",
+                    "Stardust"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Shield"
+                ],
+                "attributes_bonus": [
+                    7
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Star_Charts",
+                    "name": "Звёздные карты",
+                    "info": "С шансом ${value1}% предлагаемый Аркан получит бонусный уровень"
+                }
+            ],
+            "skill_values": [
+                15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Shield"
+                ],
+                "attributes_bonus": [
+                    3
+                ],
+                "skill_value_tags": [
+                    "value1"
+                ],
+                "skill_bonus": [
+                    5
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "name": "Звёздный посох",
+            "file_name": "Star_Staff.png",
+            "rarity": 3,
+            "game_description": "Звёздный посох создал слепой астромант, который утверждал, что видит небеса не глазами, а через прикосновение. В навершие он поместил кристалл, найденный после падения кометы. Ученики мастера спорили, кому принадлежит посох, но однажды он исчез из башни сам. Спустя столетие реликвия появилась на другом конце мира у неизвестного странника. С тех пор Звёздный посох считают странствующей вещью, которая приходит туда, где судьба должна свернуть с привычного пути.",
+            "position_in_shop": [
+                3,
+                3
+            ],
+            "item_group": 4,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Vial of Rubedo",
+                    "Pearl of Sorcery"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Shield",
+                    "Effect_resistance"
+                ],
+                "attributes_bonus": [
+                    10,
+                    15
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Star_Charts",
+                    "name": "Звёздные карты",
+                    "info": "С шансом ${value1}% предлагаемый Аркан получит бонусный уровень"
+                }
+            ],
+            "skill_values": [
+                15
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Shield",
+                    "Effect_resistance"
+                ],
+                "attributes_bonus": [
+                    4,
+                    5
+                ],
+                "skill_value_tags": [
+                    "value1"
+                ],
+                "skill_bonus": [
+                    6
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "name": "Копьё скорби",
+            "file_name": "Spear_of_Sorrow.png",
+            "rarity": 0,
+            "game_description": "Копьё скорби выковано для вдовы погибшего военачальника. Она приказала мастеру не украшать оружие золотом и оставить на древке все следы кузнечного молота. Копьё стало напоминанием о том, что победа не всегда приносит радость.",
+            "position_in_shop": [
+                4,
+                0
+            ],
+            "item_group": 5,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Iron Shard"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    -5,
+                    15,
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Doom",
+                    "name": "Погибель",
+                    "info": "Увеличивает урон на ${value1}, если здоровье носителя ниже ${value2}%. В противном случае увеличивает входящий урон на ${value3}%"
+                }
+            ],
+            "skill_values": [
+                40,
+                40,
+                20
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    10,
+                    2
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 17,
+            "name": "Копьё поглощения",
+            "file_name": "Spear_of_Absorption.png",
+            "rarity": 1,
+            "game_description": "Копьё поглощения нашли в древней гробнице, где стены были покрыты изображениями пустых сосудов. Его наконечник будто впитывает свет, а металл остаётся холодным даже у огня. Воины, которым доводилось держать его, говорили, что оружие словно ждет, когда рядом появится чужая сила.",
+            "position_in_shop": [
+                4,
+                1
+            ],
+            "item_group": 5,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Iron Shard",
+                    "Silver"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    -8,
+                    35,
+                    9
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Doom",
+                    "name": "Погибель",
+                    "info": "Увеличивает урон на ${value1}, если здоровье носителя ниже ${value2}%. В противном случае увеличивает входящий урон на ${value3}%"
+                }
+            ],
+            "skill_values": [
+                50,
+                45,
+                20
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Health"
+                ],
+                "attributes_bonus": [
+                    3
+                ],
+                "skill_value_tags": [
+                    "value1"
+                ],
+                "skill_bonus": [
+                    15
+                ]
+            }
+        },
+        {
+            "id": 18,
+            "name": "Копьё сущности",
+            "file_name": "Spear_of_Essence.png",
+            "rarity": 2,
+            "game_description": "Копьё сущности принадлежало ордену, охранявшему границу между миром живых и царством духов. Посвящённым запрещалось давать оружию имена, чтобы не привязывать его к человеческой воле. Однако один из стражей нарушил запрет и назвал копьё в честь погибшего брата. После этого реликвия стала семейной тайной, передаваемой из поколения в поколение. Говорят, её наконечник темнеет перед встречей с тем, чья душа уже почти покинула тело. Последний хранитель исчез вместе с копьём во время войны магов. Теперь его ищут не ради славы, а из страха перед тем, кому оно может достаться.",
+            "position_in_shop": [
+                4,
+                2
+            ],
+            "item_group": 5,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Silver",
+                    "Gold Ore"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    -10,
+                    40,
+                    10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Doom",
+                    "name": "Погибель",
+                    "info": "Увеличивает урон на ${value1}, если здоровье носителя ниже ${value2}%. В противном случае увеличивает входящий урон на ${value3}%"
+                }
+            ],
+            "skill_values": [
+                60,
+                50,
+                20
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Health"
+                ],
+                "attributes_bonus": [
+                    4
+                ],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    15,
+                    5
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "name": "Демоническая коса",
+            "file_name": "Demonic_Scythe.png",
+            "rarity": 3,
+            "game_description": "Демоническая коса появилась в мире после неудачного обряда призыва. Жрецы пытались уничтожить её, но каждый удар только оставлял на металле новые багровые руны. В конце концов косу запечатали в храме, где она пролежала несколько веков. Когда храм разрушился, реликвия снова оказалась среди живых.",
+            "position_in_shop": [
+                4,
+                3
+            ],
+            "item_group": 6,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Gold Ore",
+                    "Dragon Steel"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed",
+                    "Critical_hit_amount"
+                ],
+                "attributes_bonus": [
+                    50,
+                    -30,
+                    60
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Demonic_Power",
+                    "name": "Демоническая сила",
+                    "info": "Увеличивает весь входящий урон на ${value1}%, а исходящий урон на ${value2}%"
+                },
+                {
+                    "ability_image": "Inexorable_Fate",
+                    "name": "Неумолимый рок",
+                    "info": "Cнижает эффективность любого лечения героя на ${value3}%"
+                }
+            ],
+            "skill_values": [
+                50,
+                30,
+                80
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount"
+                ],
+                "attributes_bonus": [
+                    20
+                ],
+                "skill_value_tags": [
+                    "value2",
+                    "value3"
+                ],
+                "skill_bonus": [
+                    5,
+                    -5
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "name": "Проклятый клинок",
+            "file_name": "Cursed_Blade.png",
+            "rarity": 4,
+            "game_description": "Проклятый клинок называют старшим братом Демонической косы, хотя никто не знает, существовал ли когда-либо его создатель. Его металл почти чёрный, а вдоль лезвия проходят следы, похожие на засохшие жилы. Несколько королей пытались сделать клинок символом своей власти, но ни одна династия не удержала его надолго. Последний раз оружие видели в руках наёмника, вошедшего в запретные земли. Оттуда он вернулся один, но уже не произнёс ни слова.",
+            "position_in_shop": [
+                4,
+                4
+            ],
+            "item_group": 6,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Dragon Steel",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed",
+                    "Critical_hit_amount"
+                ],
+                "attributes_bonus": [
+                    70,
+                    -35,
+                    75
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Demonic_Power",
+                    "name": "Демоническая сила",
+                    "info": "Увеличивает весь входящий урон на ${value1}%, а исходящий урон на ${value2}%"
+                },
+                {
+                    "ability_image": "Inexorable_Fate",
+                    "name": "Неумолимый рок",
+                    "info": "Cнижает эффективность любого лечения героя на ${value3}%"
+                }
+            ],
+            "skill_values": [
+                60,
+                45,
+                80
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount"
+                ],
+                "attributes_bonus": [
+                    25
+                ],
+                "skill_value_tags": [
+                    "value2",
+                    "value3"
+                ],
+                "skill_bonus": [
+                    5,
+                    -10
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "name": "Роба целителя",
+            "file_name": "Healers_Robe.png",
+            "rarity": 0,
+            "game_description": "Робу целителя шили в приютах при старых монастырях. Каждый лекарь добавлял в ткань новую нить, когда спасал очередного больного. Поэтому ни одна такая роба не бывает совершенно одинаковой. Её ценят не за богатство материала, а за память о тех, кому она помогла.",
+            "position_in_shop": [
+                5,
+                0
+            ],
+            "item_group": 7,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Enchanted Thread"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    8,
+                    6
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Regeneration",
+                    "name": "Регенерация",
+                    "info": "В конце комнаты восстанавливает ${value1} здоровья, если оно ниже ${value2}%"
+                }
+            ],
+            "skill_values": [
+                2,
+                33
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Health",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    4,
+                    3
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 22,
+            "name": "Мантия защиты",
+            "file_name": "Mantle_of_Protection.png",
+            "rarity": 2,
+            "game_description": "Мантия защиты создана монахами, которые сопровождали паломников через земли разбойников. В её внутреннюю сторону вплетали маленькие серебряные пластины с именами спасённых людей. Со временем мантия стала настолько тяжёлой от этих пластин, что монахи заменили их тонкими рунами. Теперь она хранит память о сотнях странников, которых однажды провела через опасные дороги.",
+            "position_in_shop": [
+                5,
+                2
+            ],
+            "item_group": 7,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Scrap of Cloth",
+                    "Silk"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Shield",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    15,
+                    2,
+                    10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Regeneration",
+                    "name": "Регенерация",
+                    "info": "В конце комнаты восстанавливает ${value1} здоровья, если оно ниже ${value2}%"
+                }
+            ],
+            "skill_values": [
+                2,
+                40
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Health",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    5,
+                    5
+                ],
+                "skill_value_tags": [
+                    "value1"
+                ],
+                "skill_bonus": [
+                    1
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "name": "Охранная накидка",
+            "file_name": "Guarding_Cape.png",
+            "rarity": 4,
+            "game_description": "Охранная накидка была частью облачения королевских стражей, охранявших последний храм древнего города. После падения столицы один из стражей вынес её из горящего дворца. Он передавал накидку только тем, кто клялся защищать слабых, даже если закон приказывал обратное. За несколько столетий она побывала у рыцарей, лекарей и даже простых путников. На внутренней стороне до сих пор видны старые знаки караула. Их значение давно забыто, но традиция передачи накидки сохранилась.",
+            "position_in_shop": [
+                5,
+                4
+            ],
+            "item_group": 7,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Golden Fabric",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Shield",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    30,
+                    8,
+                    22
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Regeneration",
+                    "name": "Регенерация",
+                    "info": "В конце комнаты восстанавливает ${value1} здоровья, если оно ниже ${value2}%"
+                }
+            ],
+            "skill_values": [
+                3,
+                40
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Shield",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    2,
+                    4
+                ],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    1,
+                    5
+                ]
+            }
+        },
+        {
+            "id": 24,
+            "name": "Амулет чар",
+            "file_name": "Charm_Amulet.png",
+            "rarity": 0,
+            "game_description": "Амулет чар создали ученики великой чародейки, чтобы сохранить хотя бы малую часть её знаний. Внутри камня заключены тонкие нити мерцающей пыли, похожей на застывший свет. Амулет часто находят рядом с теми, кто слишком долго изучал магию и забыл о мире вокруг.",
+            "position_in_shop": [
+                6,
+                0
+            ],
+            "item_group": 8,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Magic Dust"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Spell_damage",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    6,
+                    4
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Magic_Aura",
+                    "name": "Аура волшебства",
+                    "info": "Уменьшает магическое сопротивление всех противников в радиусе ${value1} на ${value2}%"
+                }
+            ],
+            "skill_values": [
+                270,
+                5
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    4
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 25,
+            "name": "Магический посох",
+            "file_name": "Magic_Staff.png",
+            "rarity": 1,
+            "game_description": "Магический посох принадлежал странствующему колдуну, который не признавал школ и границ между видами магии. Его сердцевина сделана из ветви дерева, выросшего на месте падения древнего метеора. Ученики пытались повторить работу мастера, но ни один посох не получался таким же. После смерти колдуна его оружие исчезло из башни. Через много лет оно было найдено в руках неизвестного мага, который утверждал, что посох сам указал ему дорогу.",
+            "position_in_shop": [
+                6,
+                1
+            ],
+            "item_group": 8,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Magic Dust",
+                    "Stardust"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Spell_damage",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    10,
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Magic_Aura",
+                    "name": "Аура волшебства",
+                    "info": "Уменьшает магическое сопротивление всех противников в радиусе ${value1} на ${value2}%"
+                }
+            ],
+            "skill_values": [
+                290,
+                7
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    8
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 26,
+            "name": "Сфера чародейства",
+            "file_name": "Sorcery_Sphere.png",
+            "rarity": 2,
+            "game_description": "Сфера чародейства хранилась в подземной библиотеке, куда допускали только архимагов. По легенде, её поверхность отражает не настоящее, а следы заклинаний, когда-либо произнесённых рядом. Поэтому библиотекари использовали сферу для изучения давно забытых школ магии. После пожара она осталась единственной целой реликвией среди тысяч уничтоженных книг.",
+            "position_in_shop": [
+                6,
+                2
+            ],
+            "item_group": 8,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Stardust",
+                    "Vial of Rubedo"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Spell_damage",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    10,
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Magic_Aura",
+                    "name": "Аура волшебства",
+                    "info": "Уменьшает магическое сопротивление всех противников в радиусе ${value1} на ${value2}%"
+                }
+            ],
+            "skill_values": [
+                300,
+                8
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Spell_damage"
+                ],
+                "attributes_bonus": [
+                    10
+                ],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    15,
+                    4
+                ]
+            }
+        },
+        {
+            "id": 27,
+            "name": "Алебарда антимагии",
+            "file_name": "Anti_Magic_Halberd.png",
+            "rarity": 3,
+            "game_description": "Алебарда антимагии была создана для стражей, которым поручили охранять город от боевых чародеев. Кузнецы закалили её лезвие в смеси железа и пепла разрушенных магических кристаллов. Оружие стало символом тех, кто встречал колдунов лицом к лицу. Его появление на поле боя обычно означало, что обычные правила магии больше не действуют.",
+            "position_in_shop": [
+                6,
+                3
+            ],
+            "item_group": 9,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Vial of Rubedo",
+                    "Pearl of Sorcery"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_speed",
+                    "Magic_resistance"
+                ],
+                "attributes_bonus": [
+                    70,
+                    -12
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Anti_Magic",
+                    "name": "Антимагия",
+                    "info": "Каждая атака владельца имеет ${value1}% шанс запретить противнику применять специальные умения в течении ${value2} секунд"
+                }
+            ],
+            "skill_values": [
+                5,
+                2
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value2"
+                ],
+                "skill_bonus": [
+                    0.4
+                ]
+            }
+        },
+        {
+            "id": 28,
+            "name": "Убийца магов",
+            "file_name": "Mage_Slayer.png",
+            "rarity": 4,
+            "game_description": "Убийца магов - позднейшая и более жестокая версия древней алебарды. Её рукоять покрыта рунами, нанесёнными после войн с магическими кланами. Каждый новый владелец добавлял на металл знак побеждённого противника. Со временем оружие превратилось в мрачную летопись целой эпохи. Говорят, последний мастер отказался наносить новый знак, потому что счёл список достаточно длинным. После этого алебарда исчезла вместе с ним.",
+            "position_in_shop": [
+                6,
+                4
+            ],
+            "item_group": 9,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Pearl of Sorcery",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_speed",
+                    "Magic_resistance",
+                    "Effect_resistance"
+                ],
+                "attributes_bonus": [
+                    90,
+                    -25,
+                    50
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Anti_Magic",
+                    "name": "Антимагия",
+                    "info": "Каждая атака владельца имеет ${value1}% шанс запретить противнику применять специальные умения в течении ${value2} секунд"
+                }
+            ],
+            "skill_values": [
+                5,
+                2.3
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_speed"
+                ],
+                "attributes_bonus": [
+                    10
+                ],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    0.5,
+                    0.4
+                ]
+            }
+        },
+        {
+            "id": 29,
+            "name": "Посох ученика",
+            "file_name": "Apprentices_Staff.png",
+            "rarity": 1,
+            "game_description": "Посох ученика выдавали тем, кто впервые переступал порог академии магии. Его делали простым, чтобы будущий волшебник учился полагаться не на богатство артефакта, а на собственное мастерство. Однако старые наставники намеренно оставляли в сердцевине посоха крупицу настоящей магии. Иногда именно она становилась первым чудом неопытного ученика.",
+            "position_in_shop": [
+                7,
+                1
+            ],
+            "item_group": 10,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Magic Dust",
+                    "Stardust"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Spell_damage",
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    10,
+                    3,
+                    5,
+                    -5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Magical_Destruction",
+                    "name": "Магическое разрушение",
+                    "info": "Любой урон от заклинаний владельца может быть критическим. Шанс и размер крита зависят от тех же параметров у героя"
+                },
+                {
+                    "ability_image": "Arcane_Draw",
+                    "name": "Волшебный расклад",
+                    "info": "Применение способностей даёт случайный из следующих постоянных бонусов: повышает урон на ${value1}, повышает скорость атаки на ${value2}, повышает урон заклинаний на ${value3}% или наносит постоянные ${value4} урона всем противникам в радиусе ${value5}. Одновременно может действовать лишь один бонус"
+                }
+            ],
+            "skill_values": [
+                20,
+                35,
+                15,
+                15,
+                140
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    5,
+                    2
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 30,
+            "name": "Рубиновый посох",
+            "file_name": "Ruby_Staff.png",
+            "rarity": 2,
+            "game_description": "Рубиновый посох создавался как награда для учеников, сумевших пройти испытание семи кругов. В его навершии закрепляли рубин, который выбирал не самый сильный, а самый настойчивый из претендентов. Многие выпускники пытались сохранить посох до конца жизни. Лишь немногие возвращали его академии добровольно, считая, что реликвия должна продолжать искать достойных учеников.",
+            "position_in_shop": [
+                7,
+                2
+            ],
+            "item_group": 10,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Stardust",
+                    "Vial of Rubedo"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Spell_damage",
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    20,
+                    4,
+                    10,
+                    -5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Magical_Destruction",
+                    "name": "Магическое разрушение",
+                    "info": "Любой урон от заклинаний владельца может быть критическим. Шанс и размер крита зависят от тех же параметров у героя"
+                },
+                {
+                    "ability_image": "Arcane_Draw",
+                    "name": "Волшебный расклад",
+                    "info": "Применение способностей даёт случайный из следующих постоянных бонусов: повышает урон на ${value1}, повышает скорость атаки на ${value2}, повышает урон заклинаний на ${value3}% или наносит постоянные ${value4} урона всем противникам в радиусе ${value5}. Одновременно может действовать лишь один бонус"
+                }
+            ],
+            "skill_values": [
+                20,
+                35,
+                15,
+                15,
+                140
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    5,
+                    3
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 31,
+            "name": "Ведьмино жало",
+            "file_name": "Witchs_Sting.png",
+            "rarity": 3,
+            "game_description": "Ведьмино жало получило имя от колдуньи, которая предпочитала побеждать противников одним точным заклинанием. Она вырезала узор на посохе собственным ножом и наполнила древесину редкими алхимическими смолами. После её смерти посох несколько раз появлялся в руках ведьм, которых боялись целые города. Каждая из них утверждала, что слышит шёпот первой хозяйки. Никто не смог доказать, был ли этот голос магией или лишь страхом.",
+            "position_in_shop": [
+                7,
+                3
+            ],
+            "item_group": 10,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Vial of Rubedo",
+                    "Pearl of Sorcery"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Spell_damage",
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    20,
+                    4,
+                    10,
+                    -7
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Magical_Destruction",
+                    "name": "Магическое разрушение",
+                    "info": "Любой урон от заклинаний владельца может быть критическим. Шанс и размер крита зависят от тех же параметров у героя"
+                },
+                {
+                    "ability_image": "Arcane_Draw",
+                    "name": "Волшебный расклад",
+                    "info": "Применение способностей даёт случайный из следующих постоянных бонусов: повышает урон на ${value1}, повышает скорость атаки на ${value2}, повышает урон заклинаний на ${value3}% или наносит постоянные ${value4} урона всем противникам в радиусе ${value5}. Одновременно может действовать лишь один бонус"
+                }
+            ],
+            "skill_values": [
+                30,
+                50,
+                25,
+                20,
+                180
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    5,
+                    3,
+                    -3
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 32,
+            "name": "Полуночная призма",
+            "file_name": "Midnight_Prism.png",
+            "rarity": 4,
+            "game_description": "Полуночная призма была последним творением магистра, посвятившего жизнь изучению случайности. Он считал, что величайшая сила скрыта не в одном идеальном заклинании, а в способности принять любой исход. Кристалл призмы вырастили в полной темноте под башней, где не было ни единого окна. После смерти магистра ученики разделили его лабораторию, но призму не решились трогать. Она осталась лежать на алтаре до тех пор, пока однажды ночью сама не засияла. С тех пор реликвия считается символом магов, которые доверяют не только расчёту, но и судьбе.",
+            "position_in_shop": [
+                7,
+                4
+            ],
+            "item_group": 10,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Pearl of Sorcery",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Spell_damage",
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    30,
+                    6,
+                    10,
+                    -8
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Magical_Destruction",
+                    "name": "Магическое разрушение",
+                    "info": "Любой урон от заклинаний владельца может быть критическим. Шанс и размер крита зависят от тех же параметров у героя"
+                },
+                {
+                    "ability_image": "Arcane_Draw",
+                    "name": "Волшебный расклад",
+                    "info": "Применение способностей даёт случайный из следующих постоянных бонусов: повышает урон на ${value1}, повышает скорость атаки на ${value2}, повышает урон заклинаний на ${value3}% или наносит постоянные ${value4} урона всем противникам в радиусе ${value5}. Одновременно может действовать лишь один бонус"
+                }
+            ],
+            "skill_values": [
+                40,
+                60,
+                30,
+                20,
+                210
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    10,
+                    4,
+                    -4
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 33,
+            "name": "Латы рыцаря",
+            "file_name": "Knights_Plate.png",
+            "rarity": 0,
+            "game_description": "Латы рыцаря изготовил деревенский кузнец для сына, уходившего на первую войну. Доспех оказался простым, но хозяин прославился тем, что никогда не отступал от тех, кого поклялся защищать. После его гибели латы хранили в часовне как память о верности.",
+            "position_in_shop": [
+                8,
+                0
+            ],
+            "item_group": 11,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Enchanted Thread"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Physical_defense",
+                    "Movement_speed"
+                ],
+                "attributes_bonus": [
+                    5,
+                    15,
+                    -10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Spiked_Retribution",
+                    "name": "Шипастое возмездие",
+                    "info": "При получении урона возвращает в ${value1} раз больше входящего урона обратно в атакующего"
+                },
+                {
+                    "ability_image": "Divine_Restoration",
+                    "name": "Божественное восстановление",
+                    "info": "При получении урона герой восстановит ${value2}% от полученного урона в качестве лечения. Здоровье будет восстанавливаться в течении ${value3} секунд"
+                }
+            ],
+            "skill_values": [
+                3,
+                20,
+                5
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Physical_defense"
+                ],
+                "attributes_bonus": [
+                    7.5
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 34,
+            "name": "Шипастый доспех",
+            "file_name": "Spiked_Armor.png",
+            "rarity": 1,
+            "game_description": "Шипастый доспех носили пограничные рыцари, которым приходилось отражать набеги из горных земель. На наплечниках и наручах кузнецы закрепляли острые пластины, чтобы враг не мог легко схватить воина. Со временем шипы стали отличительным знаком целого ордена. После распада ордена доспехи разошлись по миру, но их силуэт до сих пор узнают старые ветераны.",
+            "position_in_shop": [
+                8,
+                1
+            ],
+            "item_group": 11,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Enchanted Thread",
+                    "Scrap of Cloth"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Physical_defense",
+                    "Movement_speed"
+                ],
+                "attributes_bonus": [
+                    14,
+                    22,
+                    -20
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Spiked_Retribution",
+                    "name": "Шипастое возмездие",
+                    "info": "При получении урона возвращает в ${value1} раз больше входящего урона обратно в атакующего"
+                },
+                {
+                    "ability_image": "Divine_Restoration",
+                    "name": "Божественное восстановление",
+                    "info": "При получении урона герой восстановит ${value2}% от полученного урона в качестве лечения. Здоровье будет восстанавливаться в течении ${value3} секунд"
+                }
+            ],
+            "skill_values": [
+                4.5,
+                20,
+                5
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Physical_defense"
+                ],
+                "attributes_bonus": [
+                    9
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 35,
+            "name": "Святой доспех",
+            "file_name": "Holy_Armor.png",
+            "rarity": 3,
+            "game_description": "Святой доспех был выкован из металла, найденного в руинах храма после великого землетрясения. Жрецы объявили находку благословенной и поручили лучшим мастерам создать из неё защиту для избранного рыцаря. Он носил доспех во время паломничества через охваченные войной земли. Летописи утверждают, что рыцарь никогда не покидал раненого товарища. После его смерти доспех перенесли в святилище, но через столетие он снова исчез. Теперь его ищут паломники и искатели реликвий, веря, что он появляется там, где защита нужнее всего.",
+            "position_in_shop": [
+                8,
+                3
+            ],
+            "item_group": 11,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Silk",
+                    "Golden Fabric"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Physical_defense",
+                    "Movement_speed"
+                ],
+                "attributes_bonus": [
+                    25,
+                    36,
+                    -40
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Spiked_Retribution",
+                    "name": "Шипастое возмездие",
+                    "info": "При получении урона возвращает в ${value1} раз больше входящего урона обратно в атакующего"
+                },
+                {
+                    "ability_image": "Divine_Restoration",
+                    "name": "Божественное восстановление",
+                    "info": "При получении урона герой восстановит ${value2}% от полученного урона в качестве лечения. Здоровье будет восстанавливаться в течении ${value3} секунд"
+                }
+            ],
+            "skill_values": [
+                6,
+                25,
+                5
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Physical_defense"
+                ],
+                "attributes_bonus": [
+                    12
+                ],
+                "skill_value_tags": [
+                    "value3"
+                ],
+                "skill_bonus": [
+                    -0.5
+                ]
+            }
+        },
+        {
+            "id": 36,
+            "name": "Фехтовальный меч",
+            "file_name": "Dueling_Sword.png",
+            "rarity": 0,
+            "game_description": "Фехтовальный меч использовали в старых школах дуэлянтов. Учителя говорили, что настоящий мастер побеждает не силой удара, а умением заметить малейшую ошибку противника. Поэтому клинок делали лёгким и точным. Лучшие ученики оставляли на гарде меча небольшую насечку после каждой победы.",
+            "position_in_shop": [
+                9,
+                0
+            ],
+            "item_group": 12,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Iron Shard"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Movement_speed",
+                    "Critical_hit_chance",
+                    "Building_damage"
+                ],
+                "attributes_bonus": [
+                    5,
+                    15,
+                    5,
+                    -10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Knowledge_of_Weakness",
+                    "name": "Знание слабых мест",
+                    "info": "Атаки героя наносят на ${value1} больше урона, если у цели менее ${value2}% здоровья"
+                }
+            ],
+            "skill_values": [
+                15,
+                25
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [],
+                "attributes_bonus": [],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    5,
+                    5
+                ]
+            }
+        },
+        {
+            "id": 37,
+            "name": "Церемониальная катана",
+            "file_name": "Ceremonial_Katana.png",
+            "rarity": 1,
+            "game_description": "Церемониальная катана была подарена воину, ставшему защитником императорского дома. Её лезвие почти не использовали в настоящих сражениях, но каждый новый владелец изучал искусство владения ею с детства. Во время переворота один из стражей вынес катану из дворца и исчез. Спустя годы реликвия вернулась к потомкам императорской семьи. С тех пор её считают не просто оружием, а напоминанием о долге перед теми, кого поклялся защищать.",
+            "position_in_shop": [
+                9,
+                1
+            ],
+            "item_group": 12,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Iron Shard",
+                    "Silver"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Movement_speed",
+                    "Critical_hit_chance",
+                    "Building_damage"
+                ],
+                "attributes_bonus": [
+                    6,
+                    15,
+                    8,
+                    -15
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Knowledge_of_Weakness",
+                    "name": "Знание слабых мест",
+                    "info": "Атаки героя наносят на ${value1} больше урона, если у цели менее ${value2}% здоровья"
+                }
+            ],
+            "skill_values": [
+                20,
+                30
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    1,
+                    4
+                ],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    5,
+                    5
+                ]
+            }
+        },
+        {
+            "id": 38,
+            "name": "Ботинки скорости",
+            "file_name": "Boots_of_Speed.png",
+            "rarity": 2,
+            "game_description": "Ботинки скорости появились у курьера, который должен был доставить в столицу весть о начале войны. Он прошёл путь за несколько дней и спас город от внезапного нападения. После его смерти ботинки стали переходить к гонцам, разведчикам и странникам, которым нельзя было опаздывать.",
+            "position_in_shop": [
+                9,
+                2
+            ],
+            "item_group": 13,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Scrap of Cloth",
+                    "Silk"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Movement_speed",
+                    "Slow_effectiveness"
+                ],
+                "attributes_bonus": [
+                    7,
+                    40,
+                    20
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Heroism",
+                    "name": "Героизм",
+                    "info": "Увеличивает скорость передвижения на ${value1} если владелец не получал урон в течении последних ${value2} секунд. В противном случае повышает урон на ${value3}"
+                },
+                {
+                    "ability_image": "Swift_Enchantments",
+                    "name": "Быстрые чары",
+                    "info": "Снижает сопротивление эффектам на ${value4}% всех противников в радиусе ${value5} вокруг героя"
+                }
+            ],
+            "skill_values": [
+                20,
+                3,
+                10,
+                5,
+                200
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Movement_speed"
+                ],
+                "attributes_bonus": [
+                    2,
+                    5
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 39,
+            "name": "Зачарованные ботинки",
+            "file_name": "Enchanted_Boots.png",
+            "rarity": 3,
+            "game_description": "Зачарованные ботинки изготовил мастер, который мечтал создать обувь для тех, кто живёт быстрее обычных людей. В подошвы он вплёл серебряные нити, собранные на перекрёстках старых дорог. Первым испытателем стал королевский разведчик, сумевший пройти через вражеский лагерь незамеченным. После этого ботинки стали частью снаряжения лучших посланников.",
+            "position_in_shop": [
+                9,
+                3
+            ],
+            "item_group": 13,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Silk",
+                    "Golden Fabric"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Movement_speed",
+                    "Slow_effectiveness"
+                ],
+                "attributes_bonus": [
+                    7,
+                    45,
+                    30
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Heroism",
+                    "name": "Героизм",
+                    "info": "Увеличивает скорость передвижения на ${value1} если владелец не получал урон в течении последних ${value2} секунд. В противном случае повышает урон на ${value3}"
+                },
+                {
+                    "ability_image": "Swift_Enchantments",
+                    "name": "Быстрые чары",
+                    "info": "Снижает сопротивление эффектам на ${value4}% всех противников в радиусе ${value5} вокруг героя"
+                }
+            ],
+            "skill_values": [
+                25,
+                3,
+                15,
+                10,
+                220
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Evasion_chance",
+                    "Movement_speed"
+                ],
+                "attributes_bonus": [
+                    3,
+                    5
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 40,
+            "name": "Скороходы чемпиона",
+            "file_name": "Champions_Walkers.png",
+            "rarity": 4,
+            "game_description": "Скороходы чемпиона получили своё имя после легендарного состязания между семью величайшими гонцами королевств. Победитель прошёл горный перевал за одну ночь и вернулся до рассвета. В награду ему изготовили пару сапог из кожи небесного зверя. После его смерти сапоги стали переходить от одного чемпиона к другому. Каждый новый владелец обязан был совершить собственный подвиг, прежде чем оставить их следующему.",
+            "position_in_shop": [
+                9,
+                4
+            ],
+            "item_group": 13,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Golden Fabric",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Shield",
+                    "Evasion_chance",
+                    "Movement_speed",
+                    "Slow_effectiveness"
+                ],
+                "attributes_bonus": [
+                    10,
+                    10,
+                    50,
+                    45
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Heroism",
+                    "name": "Героизм",
+                    "info": "Увеличивает скорость передвижения на ${value1} если владелец не получал урон в течении последних ${value2} секунд. В противном случае повышает урон на ${value3}"
+                },
+                {
+                    "ability_image": "Swift_Enchantments",
+                    "name": "Быстрые чары",
+                    "info": "Снижает сопротивление эффектам на ${value4}% всех противников в радиусе ${value5} вокруг героя"
+                }
+            ],
+            "skill_values": [
+                25,
+                3,
+                15,
+                20,
+                220
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Shield",
+                    "Evasion_chance"
+                ],
+                "attributes_bonus": [
+                    5,
+                    3
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 41,
+            "name": "Защитный бальзам",
+            "file_name": "Protective_Balm.png",
+            "rarity": 0,
+            "game_description": "Защитный бальзам готовили монахи из трав, растущих возле целебных источников. Рецепт хранился только в одной обители и передавался от наставника к ученику. Путники особенно ценили маленькие флаконы с бальзамом во время долгих походов.",
+            "position_in_shop": [
+                10,
+                0
+            ],
+            "item_group": 14,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Magic Dust"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Shield"
+                ],
+                "attributes_bonus": [
+                    5,
+                    3
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Healing",
+                    "name": "Заживление",
+                    "info": "В конце каждой комнаты владелец восстанавливает ${value1} здоровья"
+                }
+            ],
+            "skill_values": [
+                1
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Health",
+                    "Shield"
+                ],
+                "attributes_bonus": [
+                    3,
+                    1
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 42,
+            "name": "Фляга с лекарством",
+            "file_name": "Medicine_Flask.png",
+            "rarity": 2,
+            "game_description": "Фляга с лекарством принадлежала полевому лекарю, который сопровождал армию через опустошённые земли. Он наполнял её настоем каждое утро и делился последними каплями с ранеными. После его смерти флягу нашли пустой, но чистой, словно кто-то уже приготовил её для следующего владельца. С тех пор её считают символом милосердия, которое не заканчивается вместе с человеком.",
+            "position_in_shop": [
+                10,
+                2
+            ],
+            "item_group": 14,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Stardust",
+                    "Vial of Rubedo"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Shield"
+                ],
+                "attributes_bonus": [
+                    12,
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Healing",
+                    "name": "Заживление",
+                    "info": "В конце каждой комнаты владелец восстанавливает ${value1} здоровья"
+                }
+            ],
+            "skill_values": [
+                3
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Health",
+                    "Shield"
+                ],
+                "attributes_bonus": [
+                    5,
+                    2
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 43,
+            "name": "Пылающий меч",
+            "file_name": "Flaming_Sword.png",
+            "rarity": 3,
+            "game_description": "Пылающий меч выкован в кузнице, где под землёй течёт раскалённая магма. Кузнец закалил клинок в вулканическом стекле и назвал его в честь огня, который однажды спас его деревню от нашествия. Оружие стало реликвией местных воинов. Даже спустя годы его пламя нисколько не ослабло.",
+            "position_in_shop": [
+                10,
+                3
+            ],
+            "item_group": 15,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Vial of Rubedo",
+                    "Pearl of Sorcery"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_speed",
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Building_damage"
+                ],
+                "attributes_bonus": [
+                    -30,
+                    70,
+                    10,
+                    30
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Burning",
+                    "name": "Сжигание",
+                    "info": "Наносит ${value1} урона всем противникам в радиусе ${value2} вокруг владельца"
+                }
+            ],
+            "skill_values": [
+                30,
+                250
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    15,
+                    4
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 44,
+            "name": "Испепеляющий меч",
+            "file_name": "Incinerating_Sword.png",
+            "rarity": 4,
+            "game_description": "Испепеляющий меч был создан после того, как кузнецы нашли обломок оружия древнего огненного титана. Они долго не могли охладить металл, поэтому работали только ночью. Первый владелец использовал меч против армии нежити, осадившей город. После сражения стены уцелели, но вокруг них несколько дней лежал серый пепел. С тех пор оружие считается слишком опасным для неопытного воина. Старые мастера говорят, что меч нужно не просто держать, а научиться сдерживать его ярость.",
+            "position_in_shop": [
+                10,
+                4
+            ],
+            "item_group": 15,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Pearl of Sorcery",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Attack_speed",
+                    "Critical_hit_amount",
+                    "Critical_hit_chance",
+                    "Building_damage"
+                ],
+                "attributes_bonus": [
+                    -40,
+                    70,
+                    15,
+                    40
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Burning",
+                    "name": "Сжигание",
+                    "info": "Наносит ${value1} урона всем противникам в радиусе ${value2} вокруг владельца"
+                }
+            ],
+            "skill_values": [
+                40,
+                260
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Critical_hit_amount",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    20,
+                    2
+                ],
+                "skill_value_tags": [
+                    "value1",
+                    "value2"
+                ],
+                "skill_bonus": [
+                    5,
+                    20
+                ]
+            }
+        },
+        {
+            "id": 45,
+            "name": "Колчан стрел",
+            "file_name": "Quiver_of_Arrows.png",
+            "rarity": 0,
+            "game_description": "Колчан стрел принадлежал охотнице, которая никогда не промахивалась по зверю, если тот угрожал её селению. Она сама вырезала знаки на каждой стреле и хранила колчан у изголовья. После её смерти жители передали его местному охотничьему братству.",
+            "position_in_shop": [
+                11,
+                0
+            ],
+            "item_group": 16,
+            "craft_price": {
+                "cost": 50,
+                "components": [
+                    "Iron Shard"
+                ],
+                "components_amount": [
+                    2
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Movement_speed",
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    5,
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Enchanted_Arrows",
+                    "name": "Зачарованные стрелы",
+                    "info": "Каждая атака с шансом ${value1}% ненадолго замедляет цель и наносит дополнительно ${value2}% урона от атаки в качесте магического урона"
+                },
+                {
+                    "ability_image": "Piercing_Shot",
+                    "name": "Пробивной выстрел",
+                    "info": "Раз в ${value3} секунды увеличивает урон следующей атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                35,
+                20,
+                3,
+                50
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Movement_speed",
+                    "Attack_damage"
+                ],
+                "attributes_bonus": [
+                    2,
+                    2
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 46,
+            "name": "Лёгкий арбалет",
+            "file_name": "Light_Crossbow.png",
+            "rarity": 1,
+            "game_description": "Лёгкий арбалет создавали для лесных разведчиков, которым приходилось долго двигаться без лишнего груза. Его мастера использовали гибкую древесину и тонкие металлические жилы. Говорят, первый такой арбалет помог небольшой группе охотников отбиться от стаи чудовищ в глубине леса.",
+            "position_in_shop": [
+                11,
+                1
+            ],
+            "item_group": 16,
+            "craft_price": {
+                "cost": 150,
+                "components": [
+                    "Iron Shard",
+                    "Silver"
+                ],
+                "components_amount": [
+                    8,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Movement_speed",
+                    "Attack_damage",
+                    "Attack_speed",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    10,
+                    5,
+                    8,
+                    2
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Enchanted_Arrows",
+                    "name": "Зачарованные стрелы",
+                    "info": "Каждая атака с шансом ${value1}% ненадолго замедляет цель и наносит дополнительно ${value2}% урона от атаки в качесте магического урона"
+                },
+                {
+                    "ability_image": "Piercing_Shot",
+                    "name": "Пробивной выстрел",
+                    "info": "Раз в ${value3} секунды увеличивает урон следующей атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                40,
+                25,
+                3,
+                50
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed"
+                ],
+                "attributes_bonus": [
+                    2,
+                    4
+                ],
+                "skill_value_tags": [],
+                "skill_bonus": []
+            }
+        },
+        {
+            "id": 47,
+            "name": "Укреплённый арбалет",
+            "file_name": "Reinforced_Crossbow.png",
+            "rarity": 2,
+            "game_description": "Укреплённый арбалет появился после того, как мастера переработали оружие пограничной стражи. Они усилили ложе, добавили зачарованные крепления и сделали механизм устойчивым к долгому использованию. Такое оружие ценили защитники крепостей и охотники на крупных чудовищ. Несколько экземпляров до сих пор хранятся в старых башнях.",
+            "position_in_shop": [
+                11,
+                2
+            ],
+            "item_group": 16,
+            "craft_price": {
+                "cost": 300,
+                "components": [
+                    "Silver",
+                    "Gold Ore"
+                ],
+                "components_amount": [
+                    10,
+                    5
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Movement_speed",
+                    "Attack_damage",
+                    "Attack_speed",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    10,
+                    5,
+                    10,
+                    3
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Enchanted_Arrows",
+                    "name": "Зачарованные стрелы",
+                    "info": "Каждая атака с шансом ${value1}% ненадолго замедляет цель и наносит дополнительно ${value2}% урона от атаки в качесте магического урона"
+                },
+                {
+                    "ability_image": "Piercing_Shot",
+                    "name": "Пробивной выстрел",
+                    "info": "Раз в ${value3} секунды увеличивает урон следующей атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                40,
+                25,
+                3,
+                50
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    3,
+                    5,
+                    1
+                ],
+                "skill_value_tags": [
+                    "value4"
+                ],
+                "skill_bonus": [
+                    10
+                ]
+            }
+        },
+        {
+            "id": 48,
+            "name": "Тяжёлая баллиста",
+            "file_name": "Heavy_Ballista.png",
+            "rarity": 3,
+            "game_description": "Тяжёлая баллиста создавалась для осадных стен, где обычные стрелы казались детскими игрушками. Её первые испытания проводили на заброшенной крепости, и один выстрел расколол древние ворота надвое. Позже мастера значительно уменьшили размеры, чтобы оружие можно было поместить в одни руки. Баллисты стали редкими, потому что требовали огромного мастерства и редких материалов. Каждый такой экземпляр считается реликвией и чудом инженерной мысли.",
+            "position_in_shop": [
+                11,
+                3
+            ],
+            "item_group": 16,
+            "craft_price": {
+                "cost": 500,
+                "components": [
+                    "Gold Ore",
+                    "Dragon Steel"
+                ],
+                "components_amount": [
+                    15,
+                    10
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Movement_speed",
+                    "Attack_damage",
+                    "Attack_speed",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    10,
+                    5,
+                    10,
+                    5
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Enchanted_Arrows",
+                    "name": "Зачарованные стрелы",
+                    "info": "Каждая атака с шансом ${value1}% ненадолго замедляет цель и наносит дополнительно ${value2}% урона от атаки в качесте магического урона"
+                },
+                {
+                    "ability_image": "Piercing_Shot",
+                    "name": "Пробивной выстрел",
+                    "info": "Раз в ${value3} секунды увеличивает урон следующей атаки на ${value4}%"
+                }
+            ],
+            "skill_values": [
+                40,
+                35,
+                3,
+                60
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Attack_damage",
+                    "Attack_speed",
+                    "Critical_hit_chance"
+                ],
+                "attributes_bonus": [
+                    5,
+                    5,
+                    1
+                ],
+                "skill_value_tags": [
+                    "value4"
+                ],
+                "skill_bonus": [
+                    15
+                ]
+            }
+        },
+        {
+            "id": 49,
+            "name": "Душа феникса",
+            "file_name": "Phoenix_Soul.png",
+            "rarity": 4,
+            "game_description": "Душа феникса - редчайшая реликвия, которую, согласно легенде, получают из пепла птицы, погибшей после тысячелетней жизни. Её хранили в храмах как символ возвращения после великого падения. Однажды жрецы обнаружили, что пепел начал светиться перед лицом смертельно раненого героя. С тех пор реликвию передают только тем, чья история ещё не закончена. Говорят, что феникс не спасает каждого владельца, а лишь даёт ему возможность закончить незавершённую судьбу. После этого пепел снова становится холодным и безмолвным.",
+            "position_in_shop": [
+                11,
+                4
+            ],
+            "item_group": 17,
+            "craft_price": {
+                "cost": 800,
+                "components": [
+                    "Pearl of Sorcery",
+                    "Purest aether"
+                ],
+                "components_amount": [
+                    20,
+                    1
+                ]
+            },
+            "attributes_list": {
+                "attributes_name": [
+                    "Health",
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    25,
+                    -10
+                ]
+            },
+            "item_abilities": [
+                {
+                    "ability_image": "Resurrection",
+                    "name": "Воскрешение",
+                    "info": "Когда здоровье владельца опускается до нуля, в течении ${value1} секунд восстанавливает здоровье героя до ${value2}%, а также создаёт ауру вокруг героя, которая наносит ${value3} периодического урона всем в радиусе ${value4}. Эффект срабатывает лишь раз за игру."
+                }
+            ],
+            "skill_values": [
+                5,
+                40,
+                80,
+                160
+            ],
+            "upgrade_bonuses": {
+                "attributes_name": [
+                    "Spell_cooldown"
+                ],
+                "attributes_bonus": [
+                    -2
+                ],
+                "skill_value_tags": [
+                    "value2",
+                    "value3",
+                    "value4"
+                ],
+                "skill_bonus": [
+                    15,
+                    20,
+                    20
+                ]
+            }
+        }
+    ]
+}

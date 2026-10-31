@@ -1,0 +1,890 @@
+{
+  "arcanaCards": [
+    {
+      "id": 0,
+      "name": "Ненасытные чувства",
+      "file_name": "Insatiable_Senses.png",
+      "card_type": "Standart_Arcana",
+      "category": "Gluttony",
+      "game_description": "Не всякое чувство требует немедленного утоления. Тот, кто гонится за каждым новым восторгом, однажды перестанет различать радость и голод",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Effect_resistance",
+        "attribute_bonus": -12,
+        "upgrade_bonus": 1.5
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_duration",
+        "attribute_bonus": 30,
+        "upgrade_bonus": 7.5
+      }
+    },
+    {
+      "id": 1,
+      "name": "Вечный пир",
+      "file_name": "Eternal_Feast.png",
+      "card_type": "Standart_Arcana",
+      "category": "Gluttony",
+      "game_description": "Пир, на котором никто не умеет остановиться, рано или поздно становится поминальным. Оставь место умеренности, пока изобилие не обратилось в проклятие",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Slow_effectiveness",
+        "attribute_bonus": -20,
+        "upgrade_bonus": 0
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_radius",
+        "attribute_bonus": 30,
+        "upgrade_bonus": 10
+      }
+    },
+    {
+      "id": 2,
+      "name": "Плен комфорта",
+      "file_name": "Captive_Comfort.png",
+      "card_type": "Standart_Arcana",
+      "category": "Gluttony",
+      "game_description": "Мягкая постель может стать темницей, если ради покоя ты откажешься от себя самого",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Movement_speed",
+        "attribute_bonus": -15,
+        "upgrade_bonus": 4
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_cooldown",
+        "attribute_bonus": -13,
+        "upgrade_bonus": -3
+      }
+    },
+    {
+      "id": 3,
+      "name": "Алчность обладания",
+      "file_name": "Greed_for_Possession.png",
+      "card_type": "Standart_Arcana",
+      "category": "Gluttony",
+      "game_description": "Вещь, которую ты хранишь лишь ради самого обладания, вскоре начнёт владеть тобой. Держи сокровища так, чтобы руки оставались свободными",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Physical_defense",
+        "attribute_bonus": -10,
+        "upgrade_bonus": 3
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "First_value",
+        "attribute_bonus": 45,
+        "upgrade_bonus": 5
+      }
+    },
+    {
+      "id": 4,
+      "name": "Кубок изобилия",
+      "file_name": "Cup_of_Abundance.png",
+      "card_type": "Standart_Arcana",
+      "category": "Gluttony",
+      "game_description": "Даже чаша, наполненная до краёв, не утолит жажду того, кто не знает меры",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Magic_resistance",
+        "attribute_bonus": -10,
+        "upgrade_bonus": 0
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Last_value",
+        "attribute_bonus": 45,
+        "upgrade_bonus": 15
+      }
+    },
+    {
+      "id": 5,
+      "name": "Умеренность",
+      "file_name": "XIV_Temperance.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 14,
+      "category": "Gluttony",
+      "game_description": "Даже самый сладкий нектар становится ядом, когда жажда не знает меры",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Health",
+        "attribute_bonus": -7,
+        "upgrade_bonus": 5
+      },
+      "abilities_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Повышает уровень выбранной способности на ${bonus_value}. Это работает даже для способности максимального уровня",
+        "bonus_value": 1,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 6,
+      "name": "Необузданная страсть",
+      "file_name": "Unbridled_Passion.png",
+      "card_type": "Standart_Arcana",
+      "category": "Lust",
+      "game_description": "Пламя желания согревает, пока ты держишь его в очаге. Выпусти его на волю и оно сожжёт то, ради чего разгорелось",
+      "additional_tags": [],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": 20,
+        "upgrade_bonus": 10
+      }
+    },
+    {
+      "id": 7,
+      "name": "Чувственное излишество",
+      "file_name": "Sensual_Excess.png",
+      "card_type": "Standart_Arcana",
+      "category": "Lust",
+      "game_description": "Наслаждение подобно сладкому вину: в меру оно радует сердце, в избытке лишает разума",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Evasion_chance",
+        "attribute_bonus": 6,
+        "upgrade_bonus": 3
+      }
+    },
+    {
+      "id": 8,
+      "name": "Королева Жезлов",
+      "file_name": "Queen_of_Wands.png",
+      "card_type": "Standart_Arcana",
+      "category": "Lust",
+      "game_description": "Красота может как открыть запертую дверь, так и стать клеткой чужой воли",
+      "additional_tags": [],
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_cooldown",
+        "attribute_bonus": -5,
+        "upgrade_bonus": -2.5
+      }
+    },
+    {
+      "id": 9,
+      "name": "Сила",
+      "file_name": "VIII_Strength.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 8,
+      "category": "Lust",
+      "game_description": "Тот, кто не способен обуздать зверя внутри себя, рано или поздно станет его добычей. Истинная сила не в покорении других, а во власти над собственными желаниями",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Каждая единица здоровья героя даёт ему +${bonus_value}% магического и физического сопротивления",
+        "bonus_value": 0.1,
+        "upgrade_bonus": 0.04
+      }
+    },
+    {
+      "id": 10,
+      "name": "Императрица",
+      "file_name": "III_The_Empress.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 3,
+      "category": "Lust",
+      "game_description": "Плодородная земля дарует жизнь, но не принадлежит тому, кто жаждет сорвать с неё каждый плод",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "В начале боя герой получает щита на ${bonus_value} урона на 15 секунд",
+        "bonus_value": 8,
+        "upgrade_bonus": 4
+      }
+    },
+    {
+      "id": 11,
+      "name": "Влюблённые",
+      "file_name": "VI_The_Lovers.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 6,
+      "category": "Lust",
+      "game_description": "Страсть может осветить путь, но не должна выбирать его за тебя. Никогда не отдавай судьбу в руки желания, которое ослепляет сердце",
+      "additional_tags": [],
+      "arcanas_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Все соседние Арканы получают +${bonus_value} уровня",
+        "bonus_value": 1,
+        "upgrade_bonus": 0.5
+      }
+    },
+    {
+      "id": 12,
+      "name": "Искра ярости",
+      "file_name": "Spark_of_Fury.png",
+      "card_type": "Standart_Arcana",
+      "category": "Wrath",
+      "game_description": "Маленькая искра способна сжечь целое королевство. Прежде чем дать гневу слово или оружие, спроси себя, что останется после его победы",
+      "additional_tags": ["Affects_one_selected_ability", "Affects_one_random_arcana"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": 10,
+        "upgrade_bonus": 5
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Attack_speed",
+        "attribute_bonus": 10,
+        "upgrade_bonus": 8
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Last_value",
+        "attribute_bonus": 30,
+        "upgrade_bonus": 5
+      }
+    },
+    {
+      "id": 13,
+      "name": "Вечная вражда",
+      "file_name": "Eternal_Feud.png",
+      "card_type": "Standart_Arcana",
+      "category": "Wrath",
+      "game_description": "Победа, добытая унижением противника, не завершает вражду - она лишь передаёт меч следующей руке",
+      "additional_tags": ["Affects_one_selected_ability", "Affects_one_random_arcana"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": 5,
+        "upgrade_bonus": 0
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Critical_damage",
+        "attribute_bonus": 20,
+        "upgrade_bonus": 5
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Additional_effect_value",
+        "attribute_bonus": 20,
+        "upgrade_bonus": 10
+      }
+    },
+    {
+      "id": 14,
+      "name": "Неудержимая ярость",
+      "file_name": "Unstoppable_Rage.png",
+      "card_type": "Standart_Arcana",
+      "category": "Wrath",
+      "game_description": "Тот, кто сокрушает всё на своём пути, однажды обнаружит, что разрушил и собственную дорогу",
+      "additional_tags": ["Affects_one_selected_ability", "Affects_one_random_arcana"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": 20,
+        "upgrade_bonus": 15
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Critical_chance",
+        "attribute_bonus": 4,
+        "upgrade_bonus": 0
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "First_value",
+        "attribute_bonus": 10,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "Справедливость",
+      "file_name": "XI_Justice.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 11,
+      "category": "Wrath",
+      "game_description": "Не называй возмездие правосудием лишь потому, что сам держишь меч - суди беспристрастно, иначе твоя кара станет новым преступлением",
+      "additional_tags": ["Affects_one_selected_ability", "Affects_one_random_arcana"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": 10,
+        "upgrade_bonus": 5
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Attack_damage",
+        "attribute_bonus": 8,
+        "upgrade_bonus": 2
+      },
+      "abilities_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Применение способностей даёт ${bonus_value} скорости передвижения и скорости атаки на 2 секунды",
+        "bonus_value": 20,
+        "upgrade_bonus": 10
+      }
+    },
+    {
+      "id": 16,
+      "name": "Суд",
+      "file_name": "XX_Judgement.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 20,
+      "category": "Wrath",
+      "game_description": "Когда прозвучит последний зов, не всякий обвинитель окажется невиновным. Прежде чем требовать ответа от других - приготовься услышать собственный приговор",
+      "additional_tags": ["Affects_one_selected_ability", "Affects_one_random_arcana"],
+      "arcanas_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Случайный Аркан по соседству получает +${bonus_value} уровня",
+        "bonus_value": 3,
+        "upgrade_bonus": 1
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Effect_resistance",
+        "attribute_bonus": 8,
+        "upgrade_bonus": 2
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_damage",
+        "attribute_bonus": 10,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 17,
+      "name": "Башня",
+      "file_name": "XVI_The_Tower.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 16,
+      "category": "Wrath",
+      "game_description": "Даже самая высокая башня падёт, если её стены сложены из ярости",
+      "additional_tags": ["Affects_one_selected_ability", "Affects_one_random_arcana"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": 5,
+        "upgrade_bonus": 0
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Slow_effectiveness",
+        "attribute_bonus": 10,
+        "upgrade_bonus": 5
+      },
+      "abilities_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Применение выбранной способности в бою имеет шанс нанести на ${bonus_value}% больше урона или получить оглушение на 0.6 секунд",
+        "bonus_value": 40,
+        "upgrade_bonus": 10
+      }
+    },
+    {
+      "id": 18,
+      "name": "Верховный Жрец",
+      "file_name": "V_The_Hierophant.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 5,
+      "category": "Sloth",
+      "game_description": "Тот, кто следует догме, не задавая вопросов, однажды заблудится даже на знакомой дороге",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Размер критического удара +${bonus_value}% при полном здоровье",
+        "bonus_value": 40,
+        "upgrade_bonus": 10
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_damage",
+        "attribute_bonus": 7.5,
+        "upgrade_bonus": 2.5
+      }
+    },
+    {
+      "id": 19,
+      "name": "Луна",
+      "file_name": "XVIII_The_Moon.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 18,
+      "category": "Sloth",
+      "game_description": "Туман страха гуще ночной мглы, но он рассеивается лишь перед тем, кто делает шаг. Не позволяй неведению навечно запереть тебя в башне сомнений",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Скорость передвижения +50 при здоровье ниже ${bonus_value}%",
+        "bonus_value": 20,
+        "upgrade_bonus": 4
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_cooldown",
+        "attribute_bonus": -2.5,
+        "upgrade_bonus": -1.5
+      }
+    },
+    {
+      "id": 20,
+      "name": "Отшельник",
+      "file_name": "IX_The_Hermit.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 9,
+      "category": "Sloth",
+      "game_description": "Уединение может осветить душу, но слишком долгое бегство от мира гасит даже мудрый фонарь. Возвращайся к долгу, когда внутренний свет указал путь",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Movement_speed",
+        "attribute_bonus": 10,
+        "upgrade_bonus": 0
+      },
+      "abilities_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Длительность способностей +50% при здоровье ниже ${bonus_value}%",
+        "bonus_value": 20,
+        "upgrade_bonus": 5
+      }
+    },
+    {
+      "id": 21,
+      "name": "Звезда",
+      "file_name": "XVII_The_Star.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 17,
+      "category": "Sloth",
+      "game_description": "Звезда укажет направление, но не пройдёт дорогу за путника. Надежда пустеет, когда её не подкрепляют поступки",
+      "additional_tags": [],
+      "abilities_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Перезарядка способностей -${bonus_value}% при полном здоровье",
+        "bonus_value": -8,
+        "upgrade_bonus": -3
+      }
+    },
+    {
+      "id": 22,
+      "name": "Повешенный",
+      "file_name": "XII_The_Hanged_Man.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 12,
+      "category": "Sloth",
+      "game_description": "Порой нужно остановиться, чтобы увидеть мир иначе. Нельзя превращать жертву в оправдание вечного бездействия. Перемены начинаются лишь когда решаешься отпустить старое",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "В конце каждой комнаты герой получает ${bonus_value} щита",
+        "bonus_value": 2,
+        "upgrade_bonus": 1
+      }
+    },
+    {
+      "id": 23,
+      "name": "Верховная Жрица",
+      "file_name": "II_The_High_Priestess.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 2,
+      "category": "Sloth",
+      "game_description": "Знание, спрятанное за завесой молчания, не спасёт тех, кому ты мог помочь. Если истина тебе открыта - не позволяй страху удержать её в тени",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Если герой получает урон в бою - с шансом ${bonus_value}% полученный урон будет преобразован в лечение",
+        "bonus_value": 3,
+        "upgrade_bonus": 1.5
+      }
+    },
+    {
+      "id": 24,
+      "name": "Чужие возможности",
+      "file_name": "Another_Opportunities.png",
+      "card_type": "Standart_Arcana",
+      "category": "Envy",
+      "game_description": "Чужая открытая дверь не запирает твою. Не трать жизнь на подсчёт чужих путей - найди мужество пройти по своему",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": -15,
+        "upgrade_bonus": 0
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Health",
+        "attribute_bonus": 25,
+        "upgrade_bonus": 5
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_values",
+        "attribute_bonus": -25,
+        "upgrade_bonus": 4
+      }
+    },
+    {
+      "id": 25,
+      "name": "Мера баланса",
+      "file_name": "The_Measure_of_Balance.png",
+      "card_type": "Standart_Arcana",
+      "category": "Envy",
+      "game_description": "Сравнивая свою чашу с чужой - ты не заметишь, что в твоей уже есть вино. Не ищи чужого счастья, когда своё уже рядом",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": -5,
+        "upgrade_bonus": 0
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Physical_defense",
+        "attribute_bonus": 15,
+        "upgrade_bonus": 5
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_cooldown",
+        "attribute_bonus": 7,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 26,
+      "name": "Несовершенство души",
+      "file_name": "The_Soul_Imperfection.png",
+      "card_type": "Standart_Arcana",
+      "category": "Envy",
+      "game_description": "Чужое мастерство не делает тебя ничтожным, а лишь показывает, чему ещё можно научиться",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": -15,
+        "upgrade_bonus": 0
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Magic_resistance",
+        "attribute_bonus": 15,
+        "upgrade_bonus": 5
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "First_value",
+        "attribute_bonus": -10,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 27,
+      "name": "Чаша пустого счастья",
+      "file_name": "Cup_of_Hollow_Happiness.png",
+      "card_type": "Standart_Arcana",
+      "category": "Envy",
+      "game_description": "Чужая радость не отнимает у мира света. Если ты смотришь лишь на чужое счастье, то рискуешь не заметить то, что ещё способно согреть твоё сердце",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": -8,
+        "upgrade_bonus": 1.5
+      },
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Evasion_chance",
+        "attribute_bonus": 12,
+        "upgrade_bonus": 2
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Last_value",
+        "attribute_bonus": -25,
+        "upgrade_bonus": 3
+      }
+    },
+    {
+      "id": 28,
+      "name": "Смерть",
+      "file_name": "XIII_Death.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 13,
+      "category": "Envy",
+      "game_description": "Не разрушай собственную судьбу, пытаясь занять чужое место. Гибель старого пути должна освободить душу для перемен, а не сделать её пленником чужой жизни",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": -10,
+        "upgrade_bonus": 8
+      },
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Один раз за игру при получении смертельного урона моментально восстанавливает герою ${bonus_value}% здоровья",
+        "bonus_value": 40,
+        "upgrade_bonus": 0
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_damage",
+        "attribute_bonus": -15,
+        "upgrade_bonus": 4
+      }
+    },
+    {
+      "id": 29,
+      "name": "Колесо Фортуны",
+      "file_name": "X_Wheel_of_Fortune.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 10,
+      "category": "Envy",
+      "game_description": "Колесо вращается для всех и чужой подъём не означает твоего падения. Не проклинай свою судьбу, какой бы она не была. Всегда готовься встретить миг, когда удача повернётся уже к тебе",
+      "additional_tags": ["Affects_one_selected_ability"],
+      "arcanas_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_bonuses",
+        "attribute_bonus": -10,
+        "upgrade_bonus": 0
+      },
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Повышает уровень всех экипированных предметов на ${bonus_value}. Это работает даже для предметов максимального уровня",
+        "bonus_value": 1,
+        "upgrade_bonus": 0
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_values",
+        "attribute_bonus": -20,
+        "upgrade_bonus": 8
+      }
+    },
+    {
+      "id": 30,
+      "name": "Жезл власти",
+      "file_name": "Scepter_of_Power.png",
+      "card_type": "Standart_Arcana",
+      "category": "Greed",
+      "game_description": "Властитель, который лишь расширяет свои владения, однажды потеряет способность ими управлять. Не всякое приобретение заслуживает того, чтобы за него платить",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Attack_damage",
+        "attribute_bonus": 25,
+        "upgrade_bonus": 6
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "All_values",
+        "attribute_bonus": -10,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 31,
+      "name": "Ненасытное обладание",
+      "file_name": "Insatiable_Possession.png",
+      "card_type": "Standart_Arcana",
+      "category": "Greed",
+      "game_description": "Лестница желания не знает последней ступени. Пока ты не определишь, что для тебя достаточно, никакая сокровищница не избавит тебя от жажды большего",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Attack_speed",
+        "attribute_bonus": 65,
+        "upgrade_bonus": 10
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_cooldown",
+        "attribute_bonus": 4,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 32,
+      "name": "Тень утраты",
+      "file_name": "Shadow_of_Loss.png",
+      "card_type": "Standart_Arcana",
+      "category": "Greed",
+      "game_description": "Сокровище, которое ты боишься потерять сильнее, чем желаешь жить, уже стало твоим хозяином",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Health",
+        "attribute_bonus": 25,
+        "upgrade_bonus": 5
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_duration",
+        "attribute_bonus": -15,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 33,
+      "name": "Расточительность",
+      "file_name": "Wasteful_Indulgence.png",
+      "card_type": "Standart_Arcana",
+      "category": "Greed",
+      "game_description": "Владеть землёй - не значит владеть судьбами тех, кто на ней живёт. Власть, обращённая лишь в личную выгоду, рано или поздно обернётся против своего господина",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Critical_damage",
+        "attribute_bonus": 70,
+        "upgrade_bonus": 15
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_radius",
+        "attribute_bonus": -15,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 34,
+      "name": "Бремя накопленного",
+      "file_name": "Burden_of_Accumulation.png",
+      "card_type": "Standart_Arcana",
+      "category": "Greed",
+      "game_description": "Тот, кто несёт всё, что когда-либо приобрёл, не сможет поднять то, что ему действительно необходимо",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Critical_chance",
+        "attribute_bonus": 20,
+        "upgrade_bonus": 4
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Spell_damage",
+        "attribute_bonus": -25,
+        "upgrade_bonus": 0
+      }
+    },
+    {
+      "id": 35,
+      "name": "Дьявол",
+      "file_name": "XV_The_Devil.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 15,
+      "category": "Greed",
+      "game_description": "Золото не кует цепей - их кует рука, которая боится разжать пальцы. Всякое сокровище становится тюрьмой, когда ради него ты отдаёшь собственную волю",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "В конце каждой локации восстанавливает ${bonus_value}% здоровья герою",
+        "bonus_value": 30,
+        "upgrade_bonus": 10
+      },
+      "abilities_bonus": {
+        "bonus_type": "basic",
+        "attribute_name": "Additional_effect_value",
+        "attribute_bonus": -30,
+        "upgrade_bonus": 8
+      }
+    },
+    {
+      "id": 36,
+      "name": "Мир",
+      "file_name": "XXI_The_World.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 21,
+      "category": "Pride",
+      "game_description": "Завершённый путь - не доказательство твоего превосходства, а напоминание о пройденных испытаниях",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "В конце каждой комнаты герой восстанавливает ${bonus_value} здоровья, но применение защитного умения наносят ему 1 урона",
+        "bonus_value": 5,
+        "upgrade_bonus": 2
+      }
+    },
+    {
+      "id": 37,
+      "name": "Император",
+      "file_name": "IV_The_Emperor.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 4,
+      "category": "Pride",
+      "game_description": "Власть удерживает королевство не страхом, а ответственностью. Правитель, считающий себя выше закона, однажды останется властелином одних руин",
+      "additional_tags": [],
+      "arcanas_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Случайный Аркан в раскладе получает +${bonus_value} уровней",
+        "bonus_value": 4,
+        "upgrade_bonus": 1
+      }
+    },
+    {
+      "id": 38,
+      "name": "Солнце",
+      "file_name": "XIX_The_Sun.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 19,
+      "category": "Pride",
+      "game_description": "Как Солнце сияет не ради поклонения, так и ты ищи признания в совершённых делах, а не в том, сколько глаз обращено на тебя",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Все боссы на Вашем пути потеряют ${bonus_value}% здоровья в начале боя",
+        "bonus_value": 12,
+        "upgrade_bonus": 3
+      }
+    },
+    {
+      "id": 39,
+      "name": "Колесница",
+      "file_name": "VII_The_Chariot.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 7,
+      "category": "Pride",
+      "game_description": "Победа, добытая ценой утраты самого себя, станет лишь поражением на краю пропасти. Не позволяй амбициям затмить рассудок, иначе ты потеряешь всё, что пытался завоевать",
+      "additional_tags": [],
+      "attributes_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Все имеющиеся и будущие Арканы повышают свой уровень на 1, но все параметры героя изменяются на ${bonus_value}%",
+        "bonus_value": -14,
+        "upgrade_bonus": 4
+      }
+    },
+    {
+      "id": 40,
+      "name": "Маг",
+      "file_name": "I_The_Magician.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 1,
+      "category": "Pride",
+      "game_description": "Искусство творить чудеса не делает мага властелином мироздания. Истинное мастерство знает предел своей силы и не принимает умение за всеведение",
+      "additional_tags": [],
+      "arcanas_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Данный Аркан даёт бонус к атаке и урону заклинаний в зависимости от накопленных уровней соседних Аркан. Герой получает +${bonus_value} к урону за каждый уровень соседнего Аркана",
+        "bonus_value": 1.6,
+        "upgrade_bonus": 0.8
+      }
+    },
+    {
+      "id": 41,
+      "name": "Шут",
+      "file_name": "0_The_Fool.png",
+      "card_type": "Major_Arcana",
+      "major_arcana_number": 0,
+      "category": "Pride",
+      "game_description": "Смелость открывает дорогу в неизведанное, но самоуверенность не замечает пропасти под ногами. Ступай навстречу судьбе, не забывая смотреть, куда ставишь ногу",
+      "additional_tags": [],
+      "arcanas_bonus": {
+        "bonus_type": "unique",
+        "bonus_description": "Через 10 комнат на месте этого Аркана появится случайный из доступных с уровнем ${bonus_value}",
+        "bonus_value": 4,
+        "upgrade_bonus": 2
+      }
+    }
+  ]
+}
