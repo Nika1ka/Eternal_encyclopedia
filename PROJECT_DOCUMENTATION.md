@@ -22,6 +22,18 @@ npm.cmd run preview       # просмотр собранного dist
 
 В других оболочках можно использовать `npm`. В PowerShell `npm.cmd` позволяет избежать запрета выполнения `npm.ps1`. Vite и TypeScript записывают кеш в `node_modules`; ограничения среды агента иногда требуют разрешения на такой запуск. `dist` — результат сборки, вручную его не редактируют.
 
+## Публикация на GitHub Pages
+
+Workflow `.github/workflows/deploy.yml` запускается при push в основную ветку `master` или вручную через Actions. Node.js 24 устанавливает зависимости через `npm ci`, затем `npm run build` создаёт `dist`; только содержимое `dist` передаётся в GitHub Pages.
+
+В репозитории GitHub откройте **Settings → Pages → Build and deployment → Source** и выберите **GitHub Actions**. После загрузки изменений в `master` дождитесь успешного выполнения workflow **Deploy to GitHub Pages**. Адрес сайта: `https://nika1ka.github.io/Eternal_encyclopedia/`.
+
+`base: '/Eternal_encyclopedia/'` в `vite.config.ts` соответствует имени репозитория. Пути изображений используют `import.meta.env.BASE_URL`, а favicon в исходном `index.html` — `%BASE_URL%`. Vite подставляет базовый путь при сборке и заменяет `/src/main.tsx` ссылкой на собранный JavaScript. Если браузер запрашивает буквальный `%BASE_URL%` или `main.tsx`, опубликованы исходники вместо сборки. Публикация корня ветки через **Deploy from a branch** не выполняет сборку Vite.
+
+Локальная проверка: `npm.cmd run build`, затем `npm.cmd run preview` и открытие `/Eternal_encyclopedia/` по адресу сервера. Навигация использует hash, отдельный серверный fallback для страниц не нужен.
+
+`dist` и `node_modules` остаются в `.gitignore`: workflow создаёт сборку самостоятельно. Также исключены `.env` и `.env.*` (кроме шаблона `.env.example`), кеш TypeScript и `coverage`. Пустой файл `gitignore` без начальной точки удалён: Git не использует его как файл правил. `package-lock.json` должен оставаться в репозитории для `npm ci`.
+
 ## Структура
 
 ```text
