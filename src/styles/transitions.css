@@ -1,0 +1,32 @@
+.scene-menu { display: contents; }
+/* All encyclopedia sections share the background, navigation and menu transition. */
+.enemy-scene[data-active='false'] > .enemy-display,
+.enemy-scene[data-active='false'] > .enemy-info-panel { opacity: 0; visibility: hidden; pointer-events: none; }
+.scene-menu > * {
+  translate: 0 0;
+  opacity: 1;
+  visibility: visible;
+  transition: translate .32s ease, opacity .24s ease, visibility 0s;
+  transition-delay: .24s, .24s, 0s;
+}
+.scene-menu[data-active='false'] > * {
+  translate: -110% 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition-delay: 0s, 0s, .32s;
+}
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: .32s; }
+@keyframes section-enter { from { opacity: 0; } to { opacity: 1; } }
+@media (max-width: 900px), (max-aspect-ratio: 6/5) {
+  .scene-menu > * { grid-column: 1; grid-row: 2; align-self: start; }
+  .scene-menu[data-active='false'] > * { position: absolute; top: 112px; left: 0; }
+  .hero-display { grid-column: 1; grid-row: 3; }
+  .hero-info-panel { grid-column: 1; grid-row: 4; }
+  .enemy-scene[data-active='false'] > .enemy-display,
+  .enemy-scene[data-active='false'] > .enemy-info-panel { position: absolute; }
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root), ::view-transition-new(root), .section-placeholder { animation: none; }
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

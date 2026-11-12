@@ -1,0 +1,70 @@
+.enemies-page { position: relative; isolation: isolate; width: 100%; height: 100svh; min-height: 38rem; overflow: clip; container-type: inline-size; background: #11151b; }
+.enemy-background { position: absolute; inset: 0; z-index: -2; pointer-events: none; }
+.enemies-page::before { content: ''; position: absolute; inset: 0; z-index: -1; background: #0006; pointer-events: none; }
+/* Match the hero selector's size limits instead of growing with ultrawide windows. */
+.location-selector { position: absolute; z-index: 4; left: 0; top: 50%; transform: translateY(-50%); width: min(15.8%, 19rem); display: flex; flex-direction: column; gap: min(.85cqw, 1rem); }
+.location-selector-item { position: relative; width: 75%; height: min(4.1cqw, 5rem); padding: 2px 2px 2px 0; background: #b7b39d; clip-path: polygon(0 0, 83% 0, 100% 50%, 83% 100%, 0 100%); filter: brightness(.85); transition: width .2s, height .2s, filter .2s, background-color .2s; }
+.enemy-scene { display: contents; }
+.enemy-scene > .enemy-display, .enemy-scene > .enemy-info-panel { opacity: 1; transition: opacity .18s ease-in-out; animation: section-enter .18s ease-in-out; }
+.enemy-scene[data-fading='true'] > .enemy-display, .enemy-scene[data-fading='true'] > .enemy-info-panel { opacity: 0; pointer-events: none; }
+.location-selector-item[aria-pressed='true'] { width: 100%; height: min(5.35cqw, 6.5rem); background: #e7e4cf; filter: brightness(1); }
+.location-selector-item:hover, .location-selector-item:focus-visible { filter: brightness(1.15); background: #fff1b6; }
+.location-selector-item:focus-visible { outline: none; box-shadow: inset 0 0 0 4px #ffe69b; }
+/* Scale the model, arc and arrows together, with the same rem/height caps as heroes. */
+.enemy-display { position: absolute; left: 44.5%; top: 27.5%; transform: translateX(-50%); width: min(45%, 58rem, 84svh); aspect-ratio: 1.42; outline-offset: 8px; }
+.enemy-model-viewport { position: absolute; inset: -5% 19% -3% 11%; overflow: hidden; }
+.enemy-model-layer { position: absolute; inset: 0; }
+.enemy-model { position: absolute; inset: 0; }
+.enemy-model img { width: 100%; height: 100%; object-fit: contain; }
+.enemy-image-fallback { position: absolute; inset: 45% 0 auto; text-align: center; }
+.enemy-entering { animation: enemy-enter .4s cubic-bezier(.22,.61,.36,1) both; }
+.enemy-leaving { animation: enemy-leave .4s cubic-bezier(.22,.61,.36,1) both; pointer-events: none; }
+@keyframes enemy-enter { from { opacity: 0; transform: translateX(calc(var(--slide-direction) * 80%)); } to { opacity: 1; transform: translateX(0); } }
+@keyframes enemy-leave { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(calc(var(--slide-direction) * -80%)); } }
+.enemy-skill-arc { position: absolute; top: 0; height: 100%; width: auto; right: 13%; pointer-events: none; opacity: .85; }
+.enemy-skill-slot { width: 11.5%; }
+.enemy-skills[data-dense='true'] .enemy-skill-slot { width: 8.5%; }
+.missing-effect-icon { display: grid; place-items: center; height: 100%; font-size: 1.5em; color: #a0a8b6; }
+.enemy-arrow { position: absolute; top: 42%; width: 8%; height: 18%; padding: 0; background: none; transition: filter .2s; }
+.enemy-arrow-left { left: 0; }
+.enemy-arrow-right { right: -1%; }
+.enemy-arrow img { width: 100%; height: 100%; object-fit: contain; }
+.enemy-arrow-left img { transform: scaleX(-1); }
+.enemy-arrow:hover, .enemy-arrow:focus-visible { filter: brightness(1.4) drop-shadow(0 0 4px #fff6); }
+.enemy-arrow[aria-disabled='true'] { cursor: progress; }
+/* Dimensions, padding, typography, stats and divider inherit the shared hero panel. */
+.enemy-info-panel { background: #000b; }
+.enemy-info-panel h1 { margin: 0 0 min(1.05cqw, 1.25rem); }
+.enemy-info-panel .hero-description { flex: 1; white-space: pre-line; }
+.enemy-info-panel .stats-column:last-child { align-self: center; }
+.enemy-mode-button { align-self: center; flex: none; margin-top: min(1.3cqw, 1.5rem); border-radius: .6rem; padding: .55em 1.25em; background: #3e4f73; color: #fff; font-size: inherit; font-weight: 600; transition: background-color .32s ease-in-out, filter .2s ease; }
+.enemy-mode-button:hover { filter: brightness(1.2); }
+.enemy-mode-button:disabled { opacity: .6; cursor: default; }
+.location-effects { display: flex; justify-content: center; flex-wrap: wrap; gap: min(.9cqw, 1rem); flex: none; }
+.location-effect { width: min(3.3cqw, 4rem); aspect-ratio: 1; padding: 0; border: 1px solid #a0a8b6; border-radius: 4px; overflow: hidden; background: #131722; }
+.location-effect img { width: 100%; height: 100%; object-fit: contain; }
+.location-effect:hover { filter: brightness(1.2); }
+@media (max-width: 900px), (max-aspect-ratio: 6/5) {
+  .enemies-page { height: auto; min-height: 100svh; padding-bottom: 24px; display: flex; flex-direction: column; }
+  .enemy-background { position: fixed; }
+  .location-selector { position: relative; inset: auto; transform: none; flex-direction: row; align-items: center; width: 100%; overflow-x: auto; gap: 10px; padding: 4px 12px 12px; }
+  .location-selector-item, .location-selector-item[aria-pressed='true'] { flex: 0 0 110px; width: 110px; height: 55px; }
+  .location-selector-item[aria-pressed='true'] { background: #ffe69b; box-shadow: inset 0 0 0 3px #ffe69b; }
+  .enemy-display { position: relative; inset: auto; transform: none; width: min(94%, 45rem); margin: 24px auto; }
+  .enemy-info-panel { height: auto; min-height: 32rem; width: min(calc(100% - 28px), 37.5rem); padding: 22px; font-size: .9375rem; }
+  .enemy-info-panel h1 { font-size: 1.6rem; margin: 0 0 20px; }
+  .enemy-info-panel .hero-stats { margin: 22px auto 0; }
+  .enemy-info-panel .hero-divider { margin: 18px 0 22px; }
+  .enemy-info-panel .hero-description { max-height: 400px; }
+  .enemy-mode-button { margin-top: 22px; }
+  .location-effects { gap: 12px; }
+  .location-effect { width: 52px; }
+}
+@media (max-width: 600px) {
+  .enemy-display { height: 420px; aspect-ratio: auto; }
+  .enemy-model-viewport { inset: 0 14% 120px 10%; }
+  .enemy-arrow { top: 25%; width: 10%; }
+  .enemy-skills { position: absolute; bottom: 0; left: 0; right: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; }
+  .enemy-skill-arc { display: none; }
+  .enemy-skills .enemy-skill-slot, .enemy-skills[data-dense='true'] .enemy-skill-slot { position: relative; left: auto !important; top: auto !important; transform: none; width: 52px; }
+}
